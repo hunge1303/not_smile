@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<!-- Character speech bubble styles will be added in the CSS section -->
+<html>
+<head>
+    <title>Interactive Gallery</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://i.imgur.com/O0V2shp.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            overflow: hidden;
+        }
+
+        #welcome-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            justify-content: center;
+            animation: fadeIn 1.5s;
+        }
+
+        #welcome-text img {
+            width: 100%;
+            height: auto;
+        }
+
+        #instructions {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: beige;
+            z-index: 2;
+            font-family: cursive;
+            animation: fadeIn 1s;
+        }
+
+        #startButton {
+            padding: 15px 30px;
+            font-size: 20px;
+            margin-top: 20px;
+            cursor: crosshair;
+            font-family: cursive;
+            animation: fadeIn 1s;
+            transition: 0.4s ease;
+        }
+
+        #startButton:hover {
+            background: #ffc773;
+            box-shadow: 0 0 5px #ffc773,
+                        0 0 20px #ffc773,
+                        0 0 60px #ffc773,
+                        0 0 150px #ffc773;
+        }
+
+        #gallery {
+            display: none;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+
+        .gallery-row {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px 5%;
+            box-sizing: border-box;
+            position: absolute;
+        }
+
+        .gallery-row:first-child {
+            top: 0;
+        }
+
+        .gallery-row:last-child {
+            bottom: 0;
+        }
+
+        .top-row {
+            top: 0;
+        }
+
+        .bottom-row {
+            bottom: 0;
+        }
+
+        .gallery-image {
+            width: 12%;
+            height: auto;
+            aspect-ratio: 1;
+            border: 5px solid #E1E118;
+            object-fit: cover;
+            display: block;
+            transition: all 0.5s ease;
+            transition-delay: 0.1s;
+            z-index: 1;
+        }
+
+        .gallery-image.glowing {
+            animation: neonGlow 1.5s ease-in-out infinite;
+            transform: scale(1.1);
+            z-index: 1;
+        }
+
+        #character {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(50%, 50%);
+            z-index: 2;
+            will-change: transform;
+        }
+
+        .speech-bubble {
+            display: none;
+            position: fixed;
+            left: 130px;
+            bottom: 100px;
+            background: white;
+            border-radius: 15px;
+            padding: 15px;
+            max-width: 300px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            font-family: 'Times New Roman';
+            z-index: 1001;
+            animation: fadeIn 0.5s;
+        }
+
+        .speech-bubble:before {
+            content: '';
+            position: absolute;
+            left: -10px;
+            bottom: 20px;
+            border-width: 10px 10px 10px 0;
+            border-style: solid;
+            border-color: transparent white transparent transparent;
+        }
+
+        #info-character {
+            position: fixed;
+            left: 20px;
+            bottom: 20px;
+            width: 150px;
+            height: 150px;
+            z-index: 1001;
+            display: none;
+        }
+
+        #fullscreen-view {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            z-index: 3;
+        }
+
+        #fullscreen-image {
+            max-width: 90%;
+            max-height: 90%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #gallery-name {
+           position: fixed;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%, -50%);
+           font-size: 4em;
+           color: white;
+           transition: opacity 0.7s;
+           z-index: 5;
+           display: none;
+           text-align: center;
+           font-family: 'Times New Roman';
+           font-weight: bold;
+           pointer-events: none;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes fadeOut {
+            0% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        @keyframes neonGlow {
+            0% {
+                box-shadow: 0 0 5px #E1E118,
+                0 0 10px #E1E118,
+                0 0 15px #E1E118,
+                0 0 20px #E1E118;
+            }
+            50% {
+                box-shadow: 0 0 10px #E1E118,
+                0 0 20px #E1E118,
+                0 0 25px #E1E118,
+                0 0 30px #E1E118;
+            }
+            100% {
+                box-shadow: 0 0 5px #E1E118,
+                0 0 10px #E1E118,
+                0 0 15px #E1E118,
+                0 0 20px #E1E118;
+            }
+        }
+
+        @font-face {
+            font-family: 'RusticRoadway';
+            src: url('C:/Users/Admin/Downloads/RusticRoadway.woff') format('woff');
+        }
+
+        /* Style for the menu button */
+        #menuButton {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            background: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        /* Hover effect with glow */
+        #menuButton:hover {
+            background: #ffc773;
+            box-shadow: 0 0 5px #ffc773,
+                        0 0 20px #ffc773,
+                        0 0 60px #ffc773,
+                        0 0 150px #ffc773;
+            transform: scale(1.05);
+        }
+
+        /* Click animation */
+        #menuButton:active {
+            transform: scale(0.95);
+            box-shadow: 0 0 2px #ffc773,
+                        0 0 10px #ffc773,
+                        0 0 30px #ffc773,
+                        0 0 75px #ffc773;
+        }
+
+        /* Style for the gallery menu */
+        #galleryMenu {
+            position: fixed;
+            top: 60px;
+            right: 20px;
+            z-index: 1000;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: none;
+        }
+
+        #galleryMenu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #galleryMenu li {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        #galleryMenu li:hover {
+            background: #ffc773;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="welcome-text">
+        <img src="https://i.imgur.com/YJQ7l7E.jpeg" alt="Welcome Image">
+    </div>
+    <div id="instructions">
+        <h1>Instructions</h1>
+        <p>Click on the book to open it</p>
+        <p>Click on the pages to view the galleries</p>
+        <p>Use arrow keys to move the character around</p>
+        <p>Press SPACE when near an image to view it in full screen</p>
+        <p>Press ESC to exit full screen view</p>
+        <p>Move to screen edges to navigate between galleries</p>
+        <button id="startButton">Enter Gallery</button>
+    </div>
+
+    <div id="gallery">
+        <img id="character" src="C:\Users\Admin\Downloads\Untitled131-4--unscreen.gif" alt="Moving Character">
+        <div class="gallery-row top-row">
+        </div>
+        <div class="gallery-row bottom-row">
+        </div>
+    </div>
+
+    <div id="fullscreen-view">
+        <img id="fullscreen-image" src="" alt="Fullscreen Image">
+    </div>
+
+    <div id="gallery-name"></div>
+
+    <img id="info-character" src="C:\Users\Admin\Downloads\Untitled131-4--unscreen.gif" alt="Info Character">
+    <div class="speech-bubble"></div>
+
+    <audio id="bgMusic" loop autoplay>
+         <source src="https://github.com/Katto-cpu/Katto-cpu.github.io/raw/refs/heads/main/sbsb%20ams%20_%20fix%20%20(1).mp3" type="audio/mp3">
+    </audio>
+
+    <button id="menuButton">Menu</button>
+    <div id="galleryMenu" class="hidden">
+        <ul>
+            <li data-gallery="0">Sú</li>
+            <li data-gallery="1">Chúc bé ngủ ngon</li>
+            <li data-gallery="2">Lớp cute</li>
+            <li data-gallery="3">Vẫn là lớp cute</li>
+            <li data-gallery="4">Cô Linh yêu quý <3</li>
+            <li data-gallery="game">Trải nghiệm thứ 2 cùng Oxford 2225</li>
+        </ul>
+    </div>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const welcomeText = document.getElementById('welcome-text');
+            const instructions = document.getElementById('instructions');
+            
+            // Initially hide instructions
+            instructions.style.display = 'none';
+            welcomeText.style.opacity = '1'; // Ensure welcome text starts fully visible
+            
+            // After 2 seconds, fade out welcome text and show instructions
+            setTimeout(() => {
+                welcomeText.style.animation = 'fadeOut 1s forwards'; // Add 'forwards' to maintain final state
+            }, 5000);
+            setTimeout(() => {
+                welcomeText.style.display = 'none';
+                instructions.style.display = 'flex';
+                instructions.style.animation = 'fadeIn 1s';
+            }, 6500);
+        });
+        let currentGallery = 0;
+        const totalGalleries = 5;
+        const character = {
+            x: window.innerWidth / 2,
+            y: window.innerHeight / 2,
+            speed: 12
+        };
+        // Add this with your other constants
+        const galleryNames = {
+            0: "Sú",
+            1: "Chúc bé ngủ ngon",
+            2: "Lớp cute",
+            3: "Vẫn là lớp cute",
+            4: "Cô Linh yêu quý <3"
+        };
+
+        // Add photo information object
+const photoInfo = {
+    0: {
+        top: [
+            "Sú và Hưng đang chụp ảnh tại trường",
+            "Sú đang ngủ gật trong lớp",
+            "Sú đang ăn trưa với bạn bè",
+            "Sú đang làm bài tập nhóm",
+            "Sú trong giờ thể dục",
+            "Sú đang chơi đùa với bạn"
+        ],
+        bottom: [
+            "Sú đang học bài",
+            "Sú trong giờ nghỉ giải lao",
+            "Sú đang tham gia hoạt động ngoại khóa",
+            "Sú và các bạn trong lớp",
+            "Sú đang trình bày bài",
+            "Sú trong buổi sinh hoạt lớp"
+        ]
+    },
+    1: {
+        top: [
+            "Chúc bé ngủ ngon 1",
+            "Chúc bé ngủ ngon 2",
+            "Chúc bé ngủ ngon 3",
+            "Chúc bé ngủ ngon 4",
+            "Chúc bé ngủ ngon 5",
+            "Chúc bé ngủ ngon 6"
+        ],
+        bottom: [
+            "Chúc bé ngủ ngon 7",
+            "Chúc bé ngủ ngon 8",
+            "Chúc bé ngủ ngon 9",
+            "Chúc bé ngủ ngon 10",
+            "Chúc bé ngủ ngon 11",
+            "Chúc bé ngủ ngon 12"
+        ]
+    },
+    2: {
+        top: [
+            "Raptorr",
+            "Cooldown",
+            "Phúc Minh",
+            "Dum",
+            "Đình Bách",
+            "Bão"
+        ],
+        bottom: [
+            "Huy",
+            "Hunge",
+            "Kat",
+            "Ssung",
+            "LeQuan",
+            "Vanh"
+        ]
+    },
+    3: {
+        top: [
+            "Bảo",
+            "OkLA",
+            "NPC",
+            "Nghĩa",
+            "Bơm ngực",
+            "Yins",
+        ],
+        bottom: [
+            "Tama",
+            "Phương Anh",
+            "Thư",
+            "Ngục",
+            "Thanh",
+            "Moi"
+        ]
+    }
+        };
+
+        const galleryImages = {
+            0: {
+                top: ['https://i.imgur.com/ROzPYQ6.jpeg', 
+                      'https://i.imgur.com/5jLfWMR.jpeg', 
+                      'https://i.imgur.com/L6ARbzH.jpeg', 
+                      'https://i.imgur.com/GVzsacp.jpeg', 
+                      'https://i.imgur.com/fb3eFTl.jpeg', 
+                      'https://i.imgur.com/FzCiOxR.jpeg'  
+                ],
+                bottom: ['https://i.imgur.com/N7zmKpi.jpeg',
+                         'https://i.imgur.com/HbomH1y.jpeg', 
+                         'https://i.imgur.com/yqIw5o3.jpeg', 
+                         'https://i.imgur.com/pS8aK28.jpeg', 
+                         'https://i.imgur.com/4buNfkJ.jpeg', 
+                         'https://i.imgur.com/FdafB7R.jpeg'
+                        ]
+            },
+            1: {
+                top: ['https://i.imgur.com/51zJiQO.jpeg',
+                      'https://i.imgur.com/Sq0OGXj.jpeg', 
+                      'https://i.imgur.com/yB8jT4S.jpeg', 
+                      'https://i.imgur.com/0tpLRLv.jpeg', 
+                      'https://i.imgur.com/9VZFuXB.jpeg', 
+                      'https://i.imgur.com/x8XvR6O.jpeg'
+                ],
+                bottom: ['https://i.imgur.com/fguiDJL.jpeg', 
+                         'https://i.imgur.com/tN7StVr.jpeg', 
+                         'https://i.imgur.com/cGw5XiX.jpeg', 
+                         'https://i.imgur.com/CliBsja.jpeg', 
+                         'https://i.imgur.com/RI1moU6.jpeg', 
+                         'https://i.imgur.com/z5rYDHd.jpeg'
+                        ]
+            },
+            2: {
+                top: ['https://i.imgur.com/INPXfkL.jpeg', 
+                      'https://i.imgur.com/ekruxFy.jpeg', 
+                      'https://i.imgur.com/4pZnnMp.jpeg', 
+                      'https://i.imgur.com/KPuMvqo.jpeg', 
+                      'https://i.imgur.com/OzqtYtq.jpeg', 
+                      'https://i.imgur.com/9t5e5i6.jpeg'
+                ],
+                bottom: ['https://i.imgur.com/hLYNATu.jpeg', 
+                         'https://i.imgur.com/7wpwl34.jpeg', 
+                         'https://i.imgur.com/GyS1jiD.jpeg', 
+                         'https://i.imgur.com/CNb4NQJ.jpeg', 
+                         'https://i.imgur.com/ly6Lv3L.jpeg', 
+                         'https://i.imgur.com/JspDZG1.png'
+                        ]
+            },
+            3: {
+                top: ['https://i.imgur.com/7UWyoha.jpeg', 
+                      'https://i.imgur.com/0kGScjV.png', 
+                      'https://i.imgur.com/sGkbxwZ.png', 
+                      'https://i.imgur.com/xGETYwQ.jpeg', 
+                      'https://i.imgur.com/IHZ2jga.jpeg', 
+                      'https://i.imgur.com/2pLcxrU.jpeg'
+                ],
+                bottom: ['https://i.imgur.com/2tMp6ts.jpeg', 
+                         'https://i.imgur.com/dzL4ZTq.jpeg', 
+                         'https://i.imgur.com/s9Onxi8.jpeg', 
+                         'https://i.imgur.com/E3nKhm5.jpeg', 
+                         'https://i.imgur.com/nW0KHUW.jpeg', 
+                         'https://i.imgur.com/53WrqRZ.jpeg'
+                        ]
+            },
+            4: {
+                top: ['https://i.imgur.com/lYmZmiT.jpeg', 
+                      'https://i.imgur.com/Lzbjyzk.jpeg', 
+                      'https://i.imgur.com/PhKvxt3.jpeg', 
+                      'https://i.imgur.com/9CRd7kb.jpeg', 
+                      'https://i.imgur.com/0mlY4O6.jpeg', 
+                      'https://i.imgur.com/IGXUqf5.jpeg'
+                ],
+                bottom: ['https://i.imgur.com/yu6hdYw.jpeg',
+                         'https://i.imgur.com/xa1e6dm.jpeg', 
+                         'https://i.imgur.com/acnPpqR.jpeg', 
+                         'https://i.imgur.com/H7YE1JR.jpeg', 
+                         'https://i.imgur.com/DAllFZx.jpeg', 
+                         'https://i.imgur.com/v7cqApq.jpeg'
+                        ]
+            }
+        };
+
+        document.getElementById('startButton').addEventListener('click', () => {
+            document.getElementById('instructions').style.display = 'none';
+            document.getElementById('gallery').style.display = 'block';
+            loadGallery(currentGallery);
+            
+            // Show initial gallery name
+            const galleryNameElement = document.getElementById('gallery-name');
+            galleryNameElement.textContent = galleryNames[currentGallery];
+            galleryNameElement.style.display = 'block';
+            galleryNameElement.style.visibility = 'visible';
+            galleryNameElement.style.animation = 'fadeIn 0.7s';
+            
+            setTimeout(() => {
+                galleryNameElement.style.animation = 'fadeOut 0.7s';
+                setTimeout(() => {
+                    galleryNameElement.style.display = 'none';
+                    galleryNameElement.style.visibility = 'hidden';
+                }, 700);
+            }, 3000);
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+    const bgMusic = document.getElementById('bgMusic');
+    bgMusic.volume = 0.5; // Set volume to 30%
+    
+    // Add play/pause button
+    const audioControl = document.createElement('button');
+    audioControl.innerHTML = '🔊';
+    audioControl.style.cssText = `
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 1000;
+        padding: 10px;
+        border: none;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+    `;
+    
+    document.body.appendChild(audioControl);
+    
+    // Handle play/pause
+    let isPlaying = false;
+    audioControl.addEventListener('click', () => {
+        if (isPlaying) {
+            bgMusic.pause();
+            audioControl.innerHTML = '🔈';
+        } else {
+            bgMusic.play();
+            audioControl.innerHTML = '🔊';
+        }
+        isPlaying = !isPlaying;
+    });
+    
+    // Try to play audio when user interacts with page
+    document.addEventListener('click', () => {
+        bgMusic.play().catch(err => console.log('Autoplay prevented'));
+            }, { once: true });
+        });
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const bookCover = document.querySelector('.book-cover');
+            const pages = document.querySelectorAll('.book-page');
+            const navButtons = document.querySelector('.book-nav-buttons');
+            const prevButton = document.getElementById('prevPage');
+            const nextButton = document.getElementById('nextPage');
+            let currentPage = 0;
+
+            function updateButtons() {
+                prevButton.disabled = currentPage === 0;
+                nextButton.disabled = currentPage === pages.length - 1;
+            }
+
+            function showPage(index) {
+                pages.forEach(page => page.classList.remove('active'));
+                pages[index].classList.add('active');
+                currentPage = index;
+                updateButtons();
+            }
+
+            bookCover.addEventListener('click', () => {
+                bookCover.classList.add('open');
+                const book = document.querySelector('.book');
+                book.classList.add('enlarged');
+                setTimeout(() => {
+                    bookCover.style.display = 'block';
+                    showPage(0);
+                    navButtons.style.display = 'flex';
+                }, 500);
+            });
+
+            prevButton.addEventListener('click', () => {
+                if (currentPage > 0) {
+                    showPage(currentPage - 1);
+                }
+            });
+
+            nextButton.addEventListener('click', () => {
+                if (currentPage < pages.length - 1) {
+                    showPage(currentPage + 1);
+                }
+            });
+
+            pages.forEach((page, index) => {
+                page.style.background = '#f1f1f1';
+
+                page.addEventListener('click', () => {
+                    // Start gallery with the clicked page's gallery number
+                    currentGallery = parseInt(page.dataset.gallery);
+                    const book = document.querySelector('.book');
+                    book.classList.add('zooming');
+                    
+                    setTimeout(() => {
+                    document.getElementById('flipbook-container').style.display = 'none';
+                    document.getElementById('gallery').style.display = 'block';
+                    document.getElementById('exit-button').style.display = 'block';
+                    loadGallery(currentGallery);
+                    
+                    // Show gallery name
+                    const galleryNameElement = document.getElementById('gallery-name');
+                    galleryNameElement.textContent = galleryNames[currentGallery];
+                    galleryNameElement.style.display = 'block';
+                    galleryNameElement.style.visibility = 'visible';
+                    galleryNameElement.style.animation = 'fadeIn 0.7s';
+                    
+                    setTimeout(() => {
+                        galleryNameElement.style.animation = 'fadeOut 0.7s';
+                        setTimeout(() => {
+                            galleryNameElement.style.display = 'none';
+                            galleryNameElement.style.visibility = 'hidden';
+                            }, 700);
+                        }, 3000);
+                    }, 3000);
+                });
+            });
+        });
+
+        document.addEventListener('keydown', (e) => {
+            const char = document.getElementById('character');
+            let moved = false;
+            
+            switch(e.key) {
+                case 'ArrowLeft':
+                    character.x = Math.max(0, character.x - character.speed);
+                    moved = true;
+                    if(character.x <= 0) switchGallery('prev');
+                    break;
+                case 'ArrowRight':
+                    character.x = Math.min(window.innerWidth - 100, character.x + character.speed);
+                    moved = true;
+                    if(character.x >= window.innerWidth - 100) switchGallery('next');
+                    break;
+                case 'ArrowUp':
+                    character.y = Math.max(0, character.y - character.speed);
+                    moved = true;
+                    break;
+                case 'ArrowDown':
+                    character.y = Math.min(window.innerHeight - 100, character.y + character.speed);
+                    moved = true;
+                    break;
+                case ' ':
+                    checkImageCollision();
+                    break;
+                case 'Escape':
+                    document.getElementById('fullscreen-view').style.display = 'none';
+                    document.getElementById('info-character').style.display = 'none';
+                    document.querySelector('.speech-bubble').style.display = 'none';
+                    break;
+            }
+            
+            if (moved) {
+                // Use requestAnimationFrame and transform for smoother movement
+                requestAnimationFrame(() => {
+                    char.style.transform = `translate(${character.x}px, ${character.y}px)`;
+                });
+            }
+        });
+
+        function loadGallery(galleryIndex) {
+            console.log('loadGallery called with galleryIndex:', galleryIndex);
+            const topRow = document.querySelector('.top-row');
+            const bottomRow = document.querySelector('.bottom-row');
+            if (!topRow || !bottomRow) {
+                console.error('Gallery rows not found!');
+                console.log('Top row:', topRow);
+                console.log('Bottom row:', bottomRow);
+                return;
+            }
+
+            topRow.innerHTML = '';
+            bottomRow.innerHTML = '';
+
+            if (!galleryImages[galleryIndex]) {
+                console.error('Gallery images not found for index:', galleryIndex);
+                return;
+            }
+
+            galleryImages[galleryIndex].top.forEach(src => {
+                const img = createImage(src);
+                topRow.appendChild(img);
+            });
+
+            galleryImages[galleryIndex].bottom.forEach(src => {
+                const img = createImage(src);
+                bottomRow.appendChild(img);
+            });
+        }
+
+        function createImage(src) {
+            const img = document.createElement('img');
+            img.className = 'gallery-image';
+            img.src = src;
+            img.alt = 'Gallery Image';
+            return img;
+        }
+
+        function switchGallery(direction) {
+    // Add debug logging
+    console.log('switchGallery called with direction:', direction);
+    console.log('Current gallery before switch:', currentGallery);
+
+    if(direction === 'next' && currentGallery < totalGalleries - 1) {
+        currentGallery++;
+        character.x = 0;
+    } else if(direction === 'prev' && currentGallery > 0) {
+        currentGallery--;
+        character.x = window.innerWidth - 100;
+    } else if (direction === 'next' && currentGallery === totalGalleries - 1) {
+        // Navigate to the game page when reaching the end of the fifth gallery
+        window.location.href = 'game.html';
+    }
+
+    // Add debug logging
+    console.log('New gallery index:', currentGallery);
+    console.log('Gallery name should be:', galleryNames[currentGallery]);
+
+    loadGallery(currentGallery);
+    const galleryNameElement = document.getElementById('gallery-name');
+    // Show gallery name with forced display
+    if (galleryNameElement) {
+        galleryNameElement.style.display = 'block';
+        galleryNameElement.style.visibility = 'visible';
+        galleryNameElement.textContent = galleryNames[currentGallery];
+        galleryNameElement.style.animation = 'fadeIn 0.7s';
+        // Force a reflow
+        void galleryNameElement.offsetWidth;
+        
+        // Clear any existing timeout
+        if (window.fadeTimeout) {
+            clearTimeout(window.fadeTimeout);
+        }
+        
+        // Set new timeout
+        window.fadeTimeout = setTimeout(() => {
+            galleryNameElement.style.animation = 'fadeOut 0.7s';
+            setTimeout(() => {
+                galleryNameElement.style.display = 'none';
+                galleryNameElement.style.visibility = 'hidden';
+            }, 700);
+        }, 3000);
+    } else {
+        console.error('Gallery name element not found!');
+    }
+
+    // Update character position
+    const charElement = document.getElementById('character');
+    if (charElement) {
+        charElement.style.left = character.x + 'px';
+    }
+}
+
+        function checkImageCollision() {
+    const images = document.getElementsByClassName('gallery-image');
+    const charWidth = 80;
+    const charHeight = 80;
+    const collisionBuffer = 20;
+    let collisionFound = false;
+
+    for(let img of images) {
+        const rect = img.getBoundingClientRect();
+        if(character.x < rect.right + collisionBuffer && 
+           character.x + charWidth > rect.left - collisionBuffer &&
+           character.y < rect.bottom + collisionBuffer && 
+           character.y + charHeight > rect.top - collisionBuffer) {
+            showFullscreen(img.src);
+            img.classList.add('glowing');
+            collisionFound = true;
+
+            // Show fullscreen on space press
+            showFullscreen(img.src);
+            break;
+        } else {
+            img.classList.remove('glowing');
+        }
+    }
+    if (!collisionFound) {
+        for(let img of images) {
+            img.classList.remove('glowing');
+        }
+    }
+}
+
+        // Add continuous collision checking
+        function checkCollisionsContinuously() {
+            const images = document.getElementsByClassName('gallery-image');
+            const charWidth = 80;
+            const charHeight = 80;
+            const collisionBuffer = 20;
+            let collisionFound = false;
+
+            for(let img of images) {
+                const rect = img.getBoundingClientRect();
+                if(character.x < rect.right + collisionBuffer && 
+                   character.x + charWidth > rect.left - collisionBuffer &&
+                   character.y < rect.bottom + collisionBuffer && 
+                   character.y + charHeight > rect.top - collisionBuffer) {
+                    
+                    img.classList.add('glowing');
+                    collisionFound = true;
+                } else {
+                    img.classList.remove('glowing');
+                }
+            }
+
+            if (!collisionFound) {
+                for(let img of images) {
+                    img.classList.remove('glowing');
+                }
+            }
+
+            requestAnimationFrame(checkCollisionsContinuously);
+        }
+
+        // Start the continuous collision checking
+        checkCollisionsContinuously();
+
+        function showFullscreen(src) {
+            const fullscreenView = document.getElementById('fullscreen-view');
+            const fullscreenImage = document.getElementById('fullscreen-image');
+            const infoCharacter = document.getElementById('info-character');
+            const speechBubble = document.querySelector('.speech-bubble');
+
+            fullscreenImage.src = src;
+            fullscreenView.style.display = 'block';
+            fullscreenView.style.zIndex = '1000';
+            const galleryIndex = currentGallery;
+            const imageUrl = src;
+            let infoText = "";
+
+            const topIndex = galleryImages[galleryIndex].top.indexOf(imageUrl);
+            const bottomIndex = galleryImages[galleryIndex].bottom.indexOf(imageUrl);
+            if (topIndex !== -1) {
+                infoText = photoInfo[galleryIndex].top[topIndex];
+            } else if (bottomIndex !== -1) {
+                infoText = photoInfo[galleryIndex].bottom[bottomIndex];
+            }
+            speechBubble.textContent = infoText;
+            infoCharacter.style.display = 'block';
+            speechBubble.style.display = 'block';
+        }
+
+        // Initial setup
+        const char = document.getElementById('character');
+        char.style.transform = `translate(${character.x}px, ${character.y}px)`;
+        char.style.left = '0';
+        char.style.top = '0';
+
+        // Toggle menu visibility
+        document.getElementById('menuButton').addEventListener('click', () => {
+            const menu = document.getElementById('galleryMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        });
+
+        // Handle gallery selection
+        document.querySelectorAll('#galleryMenu li').forEach(item => {
+            item.addEventListener('click', (e) => {
+                const selectedGallery = e.target.dataset.gallery;
+                
+                if (selectedGallery === 'game') {
+                    window.location.href = 'game.html';
+                    return;
+                }
+                
+                currentGallery = parseInt(selectedGallery);
+                loadGallery(currentGallery);
+
+                // Teleport character to the center of the screen
+                character.x = window.innerWidth / 2;
+                character.y = window.innerHeight / 2;
+                const charElement = document.getElementById('character');
+                charElement.style.left = character.x + 'px';
+                charElement.style.top = character.y + 'px';
+
+                // Hide the menu
+                document.getElementById('galleryMenu').style.display = 'none';
+
+                // Show gallery name
+                const galleryNameElement = document.getElementById('gallery-name');
+                galleryNameElement.textContent = galleryNames[currentGallery];
+                galleryNameElement.style.display = 'block';
+                galleryNameElement.style.visibility = 'visible';
+                galleryNameElement.style.animation = 'fadeIn 0.7s';
+                
+                setTimeout(() => {
+                    galleryNameElement.style.animation = 'fadeOut 0.7s';
+                    setTimeout(() => {
+                        galleryNameElement.style.display = 'none';
+                        galleryNameElement.style.visibility = 'hidden';
+                    }, 700);
+                }, 3000);
+            });
+        });
+    </script>
+</body>
+</html>
+
+
