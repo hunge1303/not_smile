@@ -282,7 +282,7 @@
     /* ── Cake SVG wrapper ── */
     .cake-wrapper {
       position: relative;
-      width: min(420px, 88vw);
+      width: min(560px, 92vw);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -846,15 +846,18 @@
       50%       { box-shadow: 0 4px 32px rgba(139,94,60,0.45); }
     }
     @keyframes jiggle {
-      0%   { transform: rotate(var(--rot)) translate(var(--tx), var(--ty)) scale(1); }
-      20%  { transform: rotate(calc(var(--rot) + var(--jr, 1.2deg))) translate(var(--tx), calc(var(--ty) - 3px)) scale(1.005); }
-      40%  { transform: rotate(calc(var(--rot) - var(--jr, 0.8deg))) translate(var(--tx), calc(var(--ty) + 2px)) scale(0.998); }
-      60%  { transform: rotate(calc(var(--rot) + var(--jr, 0.6deg))) translate(var(--tx), calc(var(--ty) - 2px)) scale(1.003); }
-      80%  { transform: rotate(calc(var(--rot) - var(--jr, 1deg)))   translate(var(--tx), calc(var(--ty) + 1px)) scale(1); }
-      100% { transform: rotate(var(--rot)) translate(var(--tx), var(--ty)) scale(1); }
-    
-      /*0%, 100% { transform: translateY(0px); opacity: var(--op); }
-      50%       { transform: translateY(-18px); opacity: calc(var(--op) * 0.4); }*/
+      0%  {
+        transform: rotate(var(--rot)) translate(var(--tx), var(--ty)) scale(1);
+        animation-timing-function: steps(1, end);
+      }
+      33% {
+        transform: rotate(calc(var(--rot) + var(--jr, 1.2deg))) translate(var(--tx), calc(var(--ty) - 4px)) scale(1);
+        animation-timing-function: steps(1, end);
+      }
+      66% {
+        transform: rotate(calc(var(--rot) - var(--jr, 1.2deg))) translate(var(--tx), calc(var(--ty) + 4px)) scale(1);
+        animation-timing-function: steps(1, end);
+      }
     }
     @keyframes gentlePulse {
       0%, 100% { opacity: 0.6; }
@@ -1226,7 +1229,7 @@
   </div>
 
   <audio id="bgMusic" loop>
-    <source src="https://github.com/hunge1303/not_smile/raw/refs/heads/main/Hunge%20kat%20wtf.mp3" type="audio/mpeg"/>
+    <source src="Hunge kat wtf.mp3" type="audio/mpeg"/>
   </audio>
 
 
@@ -1318,9 +1321,12 @@
 
     /* ─── START button ───────────────────────────── */
     function startJourney() {
-      // Go to Chapter 2
+      // Unlock audio context on the user-gesture click (browsers require this)
+      const music = document.getElementById('bgMusic');
+      music.volume = 0;
+      music.play().then(() => music.pause()).catch(() => {});
+
       showChapter('ch1', 'ch2', 1);
-      // Start typing after transition
       setTimeout(() => startTyping(), 1500);
     }
 
@@ -1379,12 +1385,11 @@
     /* ─── Go to Cake ─────────────────────────────── */
     function goToCake() {
       showChapter('ch2', 'ch3', 2);
-      // Start music as we transition to the cake
+      // Audio was unlocked on the Start click — now just play & fade in
       const music = document.getElementById('bgMusic');
       music.volume = 0;
       music.play().catch(() => {});
       fadeInAudio(music, 0.45, 2500);
-      // Show music toggle button
       setTimeout(() => document.getElementById('musicBtn').classList.add('show'), 2000);
     }
 
@@ -1458,59 +1463,6 @@
       isMuted = !isMuted;
       music.muted = isMuted;
       btn.textContent = isMuted ? '🔇' : '🎵';
-    }
-
-    /* ─── Ghost Photos (full-screen scatter) ─────── */
-    // 12 positions spread across the whole ch3 viewport,
-    // avoiding the center band where the cake lives
-    const ghostPositions = [
-      // Top-left corner region
-      { top:  '4%',  left:  '2%',   rot: '-9deg'  },
-      { top: '18%',  left:  '6%',   rot:  '5deg'  },
-      // Top-right corner region
-      { top:  '3%',  right: '3%',   rot:  '8deg'  },
-      { top: '16%',  right: '7%',   rot: '-6deg'  },
-      // Middle-left edge
-      { top: '42%',  left:  '1%',   rot:  '7deg'  },
-      { top: '58%',  left:  '4%',   rot: '-5deg'  },
-      // Middle-right edge
-      { top: '40%',  right: '1%',   rot: '-8deg'  },
-      { top: '60%',  right: '3%',   rot:  '4deg'  },
-      // Bottom-left region
-      { top: '76%',  left:  '3%',   rot: '-4deg'  },
-      { top: '85%',  left: '18%',   rot:  '6deg'  },
-      // Bottom-right region
-      { top: '78%',  right: '4%',   rot:  '9deg'  },
-      { top: '83%',  right:'18%',   rot: '-7deg'  },
-    ];
-
-    function addGhostPhotos(chapterNum) {
-      const container = document.getElementById('ghostPhotos');
-      const photos    = TIME_PERIODS[chapterNum].photos;
-      const size      = window.innerWidth < 600 ? 80 : 110;
-      // Each chapter gets a slice of ghost positions
-      const startIdx  = (chapterNum - 1) * 4;
-
-      photos.forEach((photo, i) => {
-        const pos  = ghostPositions[(startIdx + i) % ghostPositions.length];
-        const card = document.createElement('div');
-        card.className = 'ghost-photo';
-        card.style.cssText = `
-          width: ${size}px;
-          height: ${size + 22}px;
-          transform: rotate(${pos.rot});
-          ${pos.top    ? `top:${pos.top};`      : ''}
-          ${pos.bottom ? `bottom:${pos.bottom};`: ''}
-          ${pos.left   ? `left:${pos.left};`    : ''}
-          ${pos.right  ? `right:${pos.right};`  : ''}
-        `;
-        const img = document.createElement('img');
-        img.src = photo.src;
-        img.alt = '';
-        card.appendChild(img);
-        container.appendChild(card);
-        setTimeout(() => card.classList.add('show'), 200 + i * 320);
-      });
     }
 
     /* ─── Back from Final Page ───────────────────── */
@@ -1610,20 +1562,42 @@
 
     /* ══════════════════════════════════════════════════
        TIME PERIOD DATA
-       ─────────────────────────────────────────────────
-       Fill in your real photo paths, captions, and
-       video files for each period below.
+       Each chapter uses photoBatches (arrays of batches).
+       Update src paths and captions with your real files!
     ══════════════════════════════════════════════════ */
     const TIME_PERIODS = {
       1: {
         eraLabel: "Chapter I",
         eraTitle: "The Early Days",
         videoTitle: "A message from the old days…",
-        photos: [
-          { src: "photos/period1_1.jpg", caption: "remember this? 🌸" },
-          { src: "photos/period1_2.jpg", caption: "good times ☀️"     },
-          { src: "photos/period1_3.jpg", caption: "way back when 📷"  },
-          { src: "photos/period1_4.jpg", caption: "classic us 💛"     },
+        // 20 photos — shown as 8 → 8 → 4
+        photoBatches: [
+          [
+            { src: "cap_3/IMG20221011095445_010554.jpg", caption: "the very beginning 🌸" },
+            { src: "cap_3/IMG_20250114_141037.jpg", caption: "look at us ☀️" },
+            { src: "cap_3/IMG_20250116_101307.jpg", caption: "way back when 📷" },
+            { src: "cap_3/IMG_20250116_101324.jpg", caption: "classic us 💛" },
+            { src: "cap_3/IMG_20250121_102133.jpg", caption: "that day 🌼" },
+            { src: "cap_3/IMG_20250121_102957.jpg", caption: "remember this? 😄" },
+            { src: "cap_3/received_442338795623892.jpeg", caption: "so young 🤍" },
+            { src: "cap_3/IMG_4230.HEIC", caption: "good old times ✨" },
+          ],
+          [
+            { src: "cap_3/IMG_3776.HEIC", caption: "can't forget this 💫" },
+            { src: "cap_3/IMG_3777.HEIC", caption: "us being us 🧡" },
+            { src: "cap_3/IMG_3778.HEIC", caption: "this moment 🌙" },
+            { src: "cap_3/IMG_4987.HEIC", caption: "pure joy 🎉" },
+            { src: "cap_3/IMG_5003.HEIC", caption: "where it all started 🗺️" },
+            { src: "cap_3/z7688071393667_4e92bde2ec9a68f6ff1ef9843cf9c17e.jpg", caption: "golden memories 🌅" },
+            { src: "cap_3/received_239184258675962.jpg", caption: "this one's special 💞" },
+            { src: "cap_3/IMG_20250120_082203.jpg", caption: "treasured forever 📸" },
+          ],
+          [
+            { src: "smile/IMG_20250708_131542.jpg", caption: "still makes me smile 😊" },
+            { src: "smile/TBQ01737.JPG", caption: "never changing 🌿" },
+            { src: "smile/_DDA2182.jpg", caption: "always you 💛" },
+            { src: "smile/_DDA2194.jpg", caption: "the end of the beginning 🌟" },
+          ],
         ],
         videos: [
           { src: "videos/period1_msg1.mp4", caption: "from [Friend 1]" },
@@ -1634,10 +1608,20 @@
         eraLabel: "Chapter II",
         eraTitle: "Growing Up",
         videoTitle: "Voices from a chapter well-lived…",
-        photos: [
-          { src: "photos/period2_1.jpg", caption: "look how far we've come 🌿" },
-          { src: "photos/period2_2.jpg", caption: "that one time… 😄"          },
-          { src: "photos/period2_3.jpg", caption: "forever in my heart 💚"     },
+        // 10 photos — all shown at once
+        photoBatches: [
+          [
+            { src: "photos/p2_01.jpg", caption: "look how far we've come 🌿" },
+            { src: "photos/p2_02.jpg", caption: "that one time… 😄" },
+            { src: "photos/p2_03.jpg", caption: "forever in my heart 💚" },
+            { src: "photos/p2_04.jpg", caption: "growing up together 🌱" },
+            { src: "photos/p2_05.jpg", caption: "this chapter 🌸" },
+            { src: "photos/p2_06.jpg", caption: "adventures 🗺️" },
+            { src: "photos/p2_07.jpg", caption: "side by side 🤝" },
+            { src: "photos/p2_08.jpg", caption: "memories we made 📷" },
+            { src: "photos/p2_09.jpg", caption: "unforgettable 💫" },
+            { src: "photos/p2_10.jpg", caption: "growing together 🌻" },
+          ],
         ],
         videos: [
           { src: "videos/period2_msg1.mp4", caption: "from [Friend 3]" },
@@ -1647,11 +1631,24 @@
         eraLabel: "Chapter III",
         eraTitle: "Right Now",
         videoTitle: "People who love you, today…",
-        photos: [
-          { src: "photos/period3_1.jpg", caption: "still going strong 🧡" },
-          { src: "photos/period3_2.jpg", caption: "our favourite place ✨"  },
-          { src: "photos/period3_3.jpg", caption: "you + me always 🤍"     },
-          { src: "photos/period3_4.jpg", caption: "this year 🎉"           },
+        // 12 photos — shown as 6 → 6
+        photoBatches: [
+          [
+            { src: "photos/p3_01.jpg", caption: "still going strong 🧡" },
+            { src: "photos/p3_02.jpg", caption: "our favourite place ✨" },
+            { src: "photos/p3_03.jpg", caption: "you + me always 🤍" },
+            { src: "photos/p3_04.jpg", caption: "this year 🎉" },
+            { src: "photos/p3_05.jpg", caption: "right now 🌟" },
+            { src: "photos/p3_06.jpg", caption: "present moments 💛" },
+          ],
+          [
+            { src: "photos/p3_07.jpg", caption: "latest adventures 🗺️" },
+            { src: "photos/p3_08.jpg", caption: "just recently 📸" },
+            { src: "photos/p3_09.jpg", caption: "today's memories 🌸" },
+            { src: "photos/p3_10.jpg", caption: "more to come 🌿" },
+            { src: "photos/p3_11.jpg", caption: "still us 🤍" },
+            { src: "photos/p3_12.jpg", caption: "and always will be 💫" },
+          ],
         ],
         videos: [
           { src: "videos/period3_msg1.mp4", caption: "from [Friend 4]" },
@@ -1662,45 +1659,60 @@
 
     /* ─── Scatter layout helpers ──────────────────── */
     // Returns a nice scattered position for n polaroids
-    function getPolaroidLayout(index, total) {
-      // Pre-defined scatter positions for up to 5 polaroids
-      const layouts = {
-        1: [{ tx: '0px',    ty: '-30px',  rot: '-2deg',  z: 5 }],
-        2: [
-          { tx: '-155px', ty: '-20px',  rot: '-5deg', z: 5 },
-          { tx: '155px',  ty: '-20px',  rot: '4deg',  z: 4 },
-        ],
-        3: [
-          { tx: '-200px', ty: '-10px',  rot: '-6deg', z: 5 },
-          { tx: '0px',    ty: '-40px',  rot: '2deg',  z: 6 },
-          { tx: '200px',  ty: '-10px',  rot: '5deg',  z: 4 },
-        ],
-        4: [
-          { tx: '-240px', ty: '-15px',  rot: '-7deg', z: 4 },
-          { tx: '-80px',  ty: '-40px',  rot: '-2deg', z: 6 },
-          { tx: '80px',   ty: '-40px',  rot: '5deg',  z: 5 },
-          { tx: '240px',  ty: '-15px',  rot: '8deg',  z: 3 },
-        ],
-        5: [
-          { tx: '-265px', ty: '-10px',  rot: '-8deg', z: 3 },
-          { tx: '-130px', ty: '-40px',  rot: '-3deg', z: 6 },
-          { tx: '10px',   ty: '-20px',  rot: '3deg',  z: 5 },
-          { tx: '150px',  ty: '-40px',  rot: '6deg',  z: 4 },
-          { tx: '270px',  ty: '-10px',  rot: '-5deg', z: 2 },
-        ],
-      };
-      const set = layouts[Math.min(total, 5)] || layouts[4];
-      return set[index] || set[0];
+    /* ─── Grid layout for polaroid batches ──────────
+       Returns {tx, ty, rot, z} for card i in a batch of n.
+    ─────────────────────────────────────────────── */
+    const gridRots = ['-3deg','2.5deg','-1.5deg','3deg','-2deg','1.5deg','-3.5deg','2deg','-1deg','3.5deg','-2.5deg','1deg'];
+    function getGridLayout(i, n) {
+      const rot = gridRots[i % gridRots.length];
+      const cw  = getCardWidth(n);
+      if (n <= 4) {
+        const step = cw + 96, tx = -(n - 1) * step / 2 + i * step;
+        return { tx: `${Math.round(tx)}px`, ty: '0px', rot, z: i + 3 };
+      }
+      if (n === 6) {
+        const perRow = 3, step = cw + 60;
+        const row = Math.floor(i / perRow), col = i % perRow;
+        const tx = -(perRow - 1) * step / 2 + col * step;
+        return { tx: `${Math.round(tx)}px`, ty: `${row === 0 ? -122 : 122}px`, rot, z: i + 3 };
+      }
+      if (n <= 8) {
+        const perRow = 4, step = cw + 60;
+        const row = Math.floor(i / perRow), col = i % perRow;
+        const tx = -(perRow - 1) * step / 2 + col * step;
+        return { tx: `${Math.round(tx)}px`, ty: `${row === 0 ? -122 : 122}px`, rot, z: i + 3 };
+      }
+      if (n <= 10) {
+        const perRow = 5, step = cw + 48;
+        const row = Math.floor(i / perRow), col = i % perRow;
+        const tx = -(perRow - 1) * step / 2 + col * step;
+        return { tx: `${Math.round(tx)}px`, ty: `${row === 0 ? -122 : 122}px`, rot, z: i + 3 };
+      }
+      const perRow = 6, step = cw + 48;
+      const row = Math.floor(i / perRow), col = i % perRow;
+      const tx = -(perRow - 1) * step / 2 + col * step;
+      return { tx: `${Math.round(tx)}px`, ty: `${row === 0 ? -104 : 104}px`, rot, z: i + 3 };
+    }
+    function getCardWidth(n) {
+      if (n <= 4)  return window.innerWidth < 600 ? 148 : 190;
+      if (n === 6) return window.innerWidth < 600 ? 138 : 175;
+      if (n <= 8)  return window.innerWidth < 600 ? 130 : 164;
+      if (n <= 10) return window.innerWidth < 600 ? 112 : 142;
+      return window.innerWidth < 600 ? 102 : 128;
     }
 
     /* Jiggle variation per card */
     const jiggleVariants = [
-      { jd: '3.2s', jdelay: '0s',    jr: '1.4deg' },
-      { jd: '2.8s', jdelay: '0.4s',  jr: '1.0deg' },
-      { jd: '3.6s', jdelay: '0.2s',  jr: '1.6deg' },
-      { jd: '2.5s', jdelay: '0.6s',  jr: '0.9deg' },
-      { jd: '3.1s', jdelay: '0.1s',  jr: '1.2deg' },
+      { jd: '3.2s', jdelay: '0s',    jr: '1.2deg' },
+      { jd: '2.8s', jdelay: '0.4s',  jr: '0.9deg' },
+      { jd: '3.6s', jdelay: '0.2s',  jr: '1.4deg' },
+      { jd: '2.5s', jdelay: '0.6s',  jr: '0.8deg' },
+      { jd: '3.1s', jdelay: '0.1s',  jr: '1.0deg' },
     ];
+
+    /* ─── Batch state ─────────────────────────────── */
+    let _batches  = [];
+    let _batchIdx = 0;
 
     /* ─── Open Time Period Page ───────────────────── */
     function openTimePeriod(num) {
@@ -1711,14 +1723,14 @@
       const backBtn = document.getElementById('tpBackBtn');
       const skipBtn = document.getElementById('tpSkipBtn');
 
-      // Clear previous content
       document.querySelectorAll('.polaroid').forEach(p => p.remove());
       document.getElementById('tpVideoGrid').innerHTML = '';
       videos.classList.remove('show');
       backBtn.classList.remove('show');
       skipBtn.classList.remove('show');
+      _batches  = data.photoBatches;
+      _batchIdx = 0;
 
-      // Set era header text
       const eraLabel = document.getElementById('tpEraLabel');
       const eraTitle = document.getElementById('tpEraTitle');
       const divider  = document.getElementById('tpDivider');
@@ -1730,79 +1742,74 @@
       eraTitle.classList.remove('show');
       divider.classList.remove('show');
 
-      // Hide cake page, show time period page
       document.getElementById('ch3').classList.remove('active');
       page.dataset.chapter = num;
       page.classList.add('active');
 
-      // Animate header in
       setTimeout(() => eraLabel.classList.add('show'), 200);
       setTimeout(() => eraTitle.classList.add('show'), 400);
       setTimeout(() => divider.classList.add('show'),  650);
 
-      // Build polaroid cards
-      const photos = data.photos;
-      const cardW  = window.innerWidth < 600 ? 140 : 175;
-      const cardH  = window.innerWidth < 600 ? 140 : 175;
-
-      photos.forEach((photo, i) => {
-        const layout  = getPolaroidLayout(i, photos.length);
-        const jiggle  = jiggleVariants[i % jiggleVariants.length];
-
-        const card = document.createElement('div');
-        card.className = 'polaroid';
-        card.style.cssText = `
-          width: ${cardW}px;
-          height: ${cardH + 36}px;
-          --rot:    ${layout.rot};
-          --tx:     ${layout.tx};
-          --ty:     ${layout.ty};
-          --jd:     ${jiggle.jd};
-          --jdelay: ${jiggle.jdelay};
-          --jr:     ${jiggle.jr};
-          z-index:  ${layout.z};
-          transition: opacity ${0.5 + i * 0.12}s ease, transform ${0.6 + i * 0.1}s ease;
-        `;
-
-        const img = document.createElement('img');
-        img.src   = photo.src;
-        img.alt   = photo.caption;
-        img.style.cssText = `width:${cardW}px; height:${cardH}px;`;
-        img.onclick = (e) => { e.stopPropagation(); openLightbox(photo.src); };
-
-        const caption = document.createElement('div');
-        caption.className   = 'polaroid-caption';
-        caption.textContent = photo.caption;
-
-        card.appendChild(img);
-        card.appendChild(caption);
-        stage.appendChild(card);
-
-        // Stagger the fade-in
-        setTimeout(() => card.classList.add('show'), 900 + i * 350);
-      });
-
-      // Build videos (hidden for now)
       data.videos.forEach(vid => {
-        const card = document.createElement('div');
-        card.className = 'video-card';
-
+        const card  = document.createElement('div'); card.className = 'video-card';
         const video = document.createElement('video');
-        video.src      = vid.src;
-        video.controls = true;
-        video.preload  = 'metadata';
-
-        const cap = document.createElement('div');
-        cap.className   = 'video-card-caption';
+        video.src = vid.src; video.controls = true; video.preload = 'metadata';
+        const cap   = document.createElement('div'); cap.className = 'video-card-caption';
         cap.textContent = vid.caption;
-
-        card.appendChild(video);
-        card.appendChild(cap);
+        card.appendChild(video); card.appendChild(cap);
         document.getElementById('tpVideoGrid').appendChild(card);
       });
 
-      // Show "view messages" button after all polaroids appear
-      setTimeout(() => skipBtn.classList.add('show'), 900 + photos.length * 350 + 600);
+      showPhotoBatch(stage, skipBtn, 0);
+    }
+
+    /* ─── Show a photo batch ─────────────────────── */
+    function showPhotoBatch(stage, skipBtn, batchIdx) {
+      document.querySelectorAll('.polaroid').forEach(p => p.remove());
+      const batch  = _batches[batchIdx];
+      const isLast = batchIdx === _batches.length - 1;
+      const n      = batch.length;
+      const cardW  = getCardWidth(n);
+      const cardH  = cardW;
+
+      batch.forEach((photo, i) => {
+        const layout = getGridLayout(i, n);
+        const jiggle = jiggleVariants[i % jiggleVariants.length];
+        const card   = document.createElement('div');
+        card.className = 'polaroid';
+        card.style.cssText = `
+          width:${cardW}px; height:${cardH + 30}px;
+          --rot:${layout.rot}; --tx:${layout.tx}; --ty:${layout.ty};
+          --jd:${jiggle.jd}; --jdelay:${jiggle.jdelay}; --jr:${jiggle.jr};
+          z-index:${layout.z};
+          transition:opacity ${0.4 + i * 0.07}s ease,transform ${0.45 + i * 0.06}s ease;
+        `;
+        const img = document.createElement('img');
+        img.src = photo.src; img.alt = photo.caption;
+        img.style.cssText = `width:${cardW}px;height:${cardH}px;`;
+        img.onclick = (e) => { e.stopPropagation(); openLightbox(photo.src); };
+        const caption = document.createElement('div');
+        caption.className = 'polaroid-caption'; caption.textContent = photo.caption;
+        card.appendChild(img); card.appendChild(caption);
+        stage.appendChild(card);
+        setTimeout(() => card.classList.add('show'), 300 + i * 140);
+      });
+
+      const btnDelay = 300 + n * 140 + 480;
+      setTimeout(() => {
+        skipBtn.textContent = isLast ? 'view messages ▶' : 'continue →';
+        skipBtn.classList.add('show');
+        skipBtn.onclick = isLast
+          ? () => transitionToVideos()
+          : () => {
+              skipBtn.classList.remove('show');
+              document.querySelectorAll('.polaroid').forEach(p => p.classList.add('fade-away'));
+              setTimeout(() => {
+                _batchIdx++;
+                showPhotoBatch(stage, skipBtn, _batchIdx);
+              }, 680);
+            };
+      }, btnDelay);
     }
 
     /* ─── Transition: photos out → videos in ─────── */
@@ -1815,10 +1822,7 @@
       }, 700);
     }
 
-    /* ─── View messages button ───────────────────── */
-    function skipToVideos() {
-      transitionToVideos();
-    }
+    function skipToVideos() { transitionToVideos(); }
 
     /* ─── Lightbox ────────────────────────────────── */
     function openLightbox(src) {
@@ -1829,6 +1833,76 @@
       document.getElementById('lightbox').classList.remove('show');
     }
 
+    /* ─── Ghost Photos — evenly distributed ─────────
+       12 positions in 3 distinct zones (one per chapter):
+       Ch1 → left column | Ch2 → right column | Ch3 → bottom strip
+    ─────────────────────────────────────────────── */
+    const ghostPositions = [
+      // Row 1 — top strip (5 positions)
+      { top: '3%',   left:  '1%',  rot: '-8deg' },
+      { top: '4%',   left: '25%',  rot:  '5deg' },
+      { top: '3%',   left: '1%',  rot: '-15deg' },
+      { top: '4%',   right:'15%',  rot:  '20deg' },
+      { top: '3%',   right: '1%',  rot: '-10deg' },
+      // Row 2 (5 positions)
+      { top: '21%',  left:  '1%',  rot:  '9deg' },
+      { top: '22%',  right: '20%',  rot: '-16deg' },
+      { top: '21%',  right: '30%',  rot:  '12deg' },
+      { top: '22%',  right: '10%',  rot: '-10deg' },
+      { top: '21%',  right: '1%',  rot:  '8deg' },
+      // Row 3 — middle sides only (4 positions, cake is center)
+      { top: '43%',  left:  '1%',  rot: '-9deg' },
+      { top: '44%',  left: '5%',  rot:  '12deg' },
+      { top: '43%',  left: '11%',  rot: '-7deg' },
+      { top: '44%',  right: '1%',  rot:  '10deg' },
+      // Row 4 (5 positions)
+      { top: '63%',  left:  '1%',  rot:  '13deg' },
+      { top: '64%',  right: '20%',  rot: '-16deg' },
+      { top: '63%',  left: '38%',  rot:  '11deg' },
+      { top: '64%',  left:'10%',  rot: '-9deg' },
+      { top: '63%',  right: '1%',  rot:  '10deg' },
+      // Row 5 — bottom strip (5 positions)
+      { bottom:'2%', left:  '2%',  rot: '-15deg' },
+      { bottom:'3%', left: '19%',  rot:  '14deg' },
+      { bottom:'2%', left: '38%',  rot: '-12deg' },
+      { bottom:'3%', right:'15%',  rot:  '16deg' },
+      { bottom:'2%', right: '2%',  rot: '-14deg' },
+      // Extras for chapter 1's 20 photos (5 more)
+      { top: '33%',  left:  '1%',  rot:  '16deg' },
+      { top: '34%',  right: '1%',  rot: '-10deg' },
+      { top: '12%',  left: '38%',  rot:  '12deg' },
+      { top: '74%',  right: '20%',  rot: '-15deg' },
+      { bottom:'2%', left: '50%',  rot:  '12deg' },
+    ];
+
+    function addGhostPhotos(chapterNum) {
+      const container = document.getElementById('ghostPhotos');
+      // Show ALL photos from every batch of this chapter
+      const allPhotos = TIME_PERIODS[chapterNum].photoBatches.flat();
+      const size      = window.innerWidth < 600 ? 117 : 150;
+      // Each chapter draws from its own region of ghostPositions
+      const offsets   = { 1: 0, 2: 10, 3: 20 };
+      const startIdx  = offsets[chapterNum] || 0;
+
+      allPhotos.forEach((photo, i) => {
+        const pos  = ghostPositions[(startIdx + i) % ghostPositions.length];
+        const card = document.createElement('div');
+        card.className = 'ghost-photo';
+        card.style.cssText = `
+          width:${size}px; height:${size + 20}px;
+          transform:rotate(${pos.rot});
+          ${pos.top    ? `top:${pos.top};`       : ''}
+          ${pos.bottom ? `bottom:${pos.bottom};`  : ''}
+          ${pos.left   ? `left:${pos.left};`      : ''}
+          ${pos.right  ? `right:${pos.right};`    : ''}
+        `;
+        const img = document.createElement('img');
+        img.src = photo.src; img.alt = '';
+        card.appendChild(img); container.appendChild(card);
+        setTimeout(() => card.classList.add('show'), 150 + i * 150);
+      });
+    }
+
     /* ─── Back to Cake ────────────────────────────── */
     function backToCake() {
       const page    = document.getElementById('timePeriodPage');
@@ -1836,11 +1910,7 @@
       const skipBtn = document.getElementById('tpSkipBtn');
       backBtn.classList.remove('show');
       skipBtn.classList.remove('show');
-
-      // Pause all videos
       document.querySelectorAll('#tpVideoGrid video').forEach(v => v.pause());
-
-      // Mark the current chapter complete and scatter ghost photos
       const currentChapter = page.dataset.chapter;
       if (currentChapter) {
         const num = parseInt(currentChapter);
