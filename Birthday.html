@@ -90,10 +90,12 @@
       background: radial-gradient(ellipse at 30% 25%, #f0ddb8 0%, transparent 55%), radial-gradient(ellipse at 70% 75%, #e8d0a8 0%, transparent 55%), radial-gradient(ellipse at 50% 50%, #f7edd8 0%, #ede0c4 100%);
     }
 
-    .cd-scene { display: flex; flex-direction: column; align-items: center; gap: 1.4rem; opacity: 0; transform: scale(0.35); transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.34,1.28,0.64,1); }
     .cd-scene.show { opacity: 1; transform: scale(1); }
 
-    .cd-disc { position: relative; width: min(240px,52vw); height: min(240px,52vw); border-radius: 50%; box-shadow: 0 8px 40px rgba(61,43,31,0.28), 0 2px 8px rgba(61,43,31,0.14); flex-shrink: 0; }
+    /* Particles on ch4 */
+    #particles-canvas-cd { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
+    .cd-scene { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; gap: 1.4rem; opacity: 0; transform: scale(0.35); transition: opacity 0.9s ease, transform 0.9s cubic-bezier(0.34,1.28,0.64,1); }
+    .cd-disc { position: relative; width: min(340px,68vw); height: min(340px,68vw); border-radius: 50%; box-shadow: 0 8px 40px rgba(61,43,31,0.28), 0 2px 8px rgba(61,43,31,0.14); flex-shrink: 0; }
     .cd-disc svg { width: 100%; height: 100%; display: block; border-radius: 50%; }
     .cd-disc.spinning { animation: cdSpin 4s linear infinite; }
 
@@ -134,7 +136,7 @@
       <p class="ch1-subtitle">a present for</p>
       <h1 class="ch1-title"><em>Mai</em></h1>
       <div class="ch1-divider"></div>
-      <p class="ch1-tagline">Lesgo</p>
+      <p class="ch1-tagline">May this journey lead you onward...</p>
       <button class="btn-start pulse" onclick="startJourney()">▶ &nbsp; Begin</button>
     </div>
   </section>
@@ -236,6 +238,7 @@
 
   <!-- ══ CH4 — CD MUSIC PLAYER ══════════════════ -->
   <section id="ch4" class="chapter">
+    <canvas id="particles-canvas-cd"></canvas>
     <div class="cd-scene" id="cdScene">
 
       <!-- The CD -->
@@ -330,17 +333,30 @@
       cdPhoto: "_DDA2194.jpg",   // ← put the path to your photo here
     };
 
-    /* ─── Particles (ch1) ───────────────────────── */
+    /* ─── Particles (ch1 + ch4 share same loop) ─── */
     const cvs = document.getElementById('particles-canvas');
+    const cvs4 = document.getElementById('particles-canvas-cd');
     const ctx = cvs.getContext('2d');
+    const ctx4 = cvs4.getContext('2d');
     let particles = [];
-    function resizeCvs() { cvs.width = window.innerWidth; cvs.height = window.innerHeight; }
+    function resizeCvs() {
+      cvs.width  = window.innerWidth;  cvs.height  = window.innerHeight;
+      cvs4.width = window.innerWidth;  cvs4.height = window.innerHeight;
+    }
     resizeCvs(); window.addEventListener('resize', resizeCvs);
     function mkP() { return { x:Math.random()*cvs.width, y:Math.random()*cvs.height, r:Math.random()*1.8+0.4, vx:(Math.random()-0.5)*0.25, vy:-(Math.random()*0.35+0.1), op:Math.random()*0.35+0.08, life:Math.random()*200+80, age:0 }; }
     for(let i=0;i<60;i++) particles.push(mkP());
     function drawP() {
       ctx.clearRect(0,0,cvs.width,cvs.height);
-      particles.forEach((p,i)=>{ p.x+=p.vx; p.y+=p.vy; p.age++; const f=p.age<30?p.age/30:p.age>p.life-30?(p.life-p.age)/30:1; ctx.beginPath(); ctx.arc(p.x,p.y,p.r,0,Math.PI*2); ctx.fillStyle=`rgba(139,94,60,${p.op*f})`; ctx.fill(); if(p.age>=p.life)particles[i]=mkP(); });
+      ctx4.clearRect(0,0,cvs4.width,cvs4.height);
+      particles.forEach((p,i)=>{
+        p.x+=p.vx; p.y+=p.vy; p.age++;
+        const f=p.age<30?p.age/30:p.age>p.life-30?(p.life-p.age)/30:1;
+        const col=`rgba(139,94,60,${p.op*f})`;
+        ctx.beginPath();  ctx.arc(p.x,p.y,p.r,0,Math.PI*2);  ctx.fillStyle=col;  ctx.fill();
+        ctx4.beginPath(); ctx4.arc(p.x,p.y,p.r,0,Math.PI*2); ctx4.fillStyle=col; ctx4.fill();
+        if(p.age>=p.life)particles[i]=mkP();
+      });
       requestAnimationFrame(drawP);
     }
     drawP();
@@ -490,6 +506,7 @@
       } else {
         // Fade out background music, start CD song
         fadeOutAudio(bg, 1200);
+        cd.currentTime = cd.ended ? 0 : cd.currentTime;
         cd.volume = 0;
         cd.play().catch(()=>{});
         fadeInAudio(cd, 0.9, 1000);
@@ -512,6 +529,23 @@
         isPlaying = true;
       }
     }
+
+    /* ─── Song ended — reset to play-again state ── */
+    document.getElementById('cdMusic').addEventListener('ended', () => {
+      isPlaying = false;
+      document.getElementById('cdDisc').classList.remove('spinning');
+      document.getElementById('playBtn').textContent = '▶';
+      cancelAnimationFrame(waveAnimId);
+      drawWave(false);
+      // Update label to invite replay
+      const info  = document.getElementById('cdInfo');
+      const label = document.getElementById('cdInfoLabel');
+      info.style.opacity = '0';
+      setTimeout(() => {
+        label.textContent = 'play again?';
+        info.style.opacity = '1';
+      }, 400);
+    });
 
     /* ─── Waveform canvas ───────────────────────── */
     function drawWave(pulse) {
