@@ -1,0 +1,2005 @@
+<REAPER_PROJECT 0.1 "7.67/win64" 1775408290 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 1 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 234
+  ZOOM 37.30563332537061 8204 0
+  VZOOMEX 6.61206913 160
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 109.5 109.5
+  SELECTION2 109.5 109.5
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {D268199D-A029-4939-9041-DBF6F6B5A7E9}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {6914234A-1E11-49AC-977C-3991A2DF77FE}
+    ACT 1 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1
+  RULERLANE 2 8 "" 0 -1
+  MARKER 1 58.5 "" 0 0 1 R {4CEC2024-8341-4042-B4FB-04FC4263BD37} 0 2
+  MARKER 3 71 "" 0 0 1 R {775A14E1-C3E4-42BF-94A7-7E50F4DFA467} 0 2
+  MARKER 2 80 "" 0 0 1 R {0CE0D68A-9AE0-45AB-85B3-287DE4F19F54} 0 2
+  MARKER 4 111.5 "" 0 0 1 R {637AEAB9-A3EB-4D4D-90EE-58B54AD32CDA} 0 2
+  MARKER 5 116.5 "" 0 0 1 R {E3B69C76-4D2D-4407-A71F-38CF583AD9A0} 0 2
+  MARKER 6 131.5 "" 0 0 1 R {25F8A755-B92D-4ABB-B91F-0E6B5FB3AE29} 0 2
+  MARKER 7 236 "" 0 0 1 R {99DB551C-B40A-4F19-BB40-5D897F7526F0} 0 2
+  <PROJBAY
+  >
+  <TRACK {B1C1114E-1D2F-4A06-ACA3-989DECD63E54}
+    NAME "KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA]"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.23456058929776 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B1C1114E-1D2F-4A06-ACA3-989DECD63E54}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 257.18421768707481
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3C4E8145-3EB7-4F1B-9055-38BBF722BC55}
+      IID 1
+      NAME "KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA].mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B255368-7893-4114-9A3C-E35CB382289A}
+      <SOURCE MP3
+        FILE "C:\Users\PC\Documents\Gift\KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA].mp3" 1
+      >
+    >
+  >
+  <TRACK {87CF3A8B-537A-477D-B496-91DB9EC750B4}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.1023765046481 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {87CF3A8B-537A-477D-B496-91DB9EC750B4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 255.11764172335597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C968E088-F0A2-41F4-83B0-ED50F68150C6}
+      IID 14
+      NAME "Phép Màu (Đàn Cá Gỗ OST) - Mounter x MAYDAYs, Minh Tốc _ Official MV.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7321966A-DE9B-42B9-8DBF-6F77B1E2038B}
+      <SOURCE MP3
+        FILE "Phép Màu (Đàn Cá Gỗ OST) - Mounter x MAYDAYs, Minh Tốc _ Official MV.mp3" 1
+      >
+    >
+  >
+  <TRACK {1D4B0E05-D41B-470E-BF93-D79A3996501D}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1D4B0E05-D41B-470E-BF93-D79A3996501D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E87CAF7E-B768-4F1F-B10F-F15E0C19B8C1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 10.73333333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D29BD77F-05C9-4891-AA56-BE35F49576F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 7.83333333333333
+      SNAPOFFS 0
+      LENGTH 9.16666666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4952781-CC1B-4742-B04C-0A6DD8BB376D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 12.73333333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A72087B-25E3-4E55-8F3D-00F61A9CB16F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 19.13333333333333
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {698C6FDE-94ED-40B4-A4A2-221B2ABFBE3D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 23.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8869007-3918-4527-858C-4DF2F4CE6241}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 21.5
+      SNAPOFFS 0
+      LENGTH 4.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A74A8AF-3EA2-4630-9841-6DC9B545FF0E}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 26.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F5DDB70-3DEA-49B5-AA8A-24B873CEF24C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 26.43333333333333
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2D30116-7842-4F63-B8F3-60F4891D9049}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 31.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE390D33-6990-4E82-9E19-38EB2995402E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 28
+      SNAPOFFS 0
+      LENGTH 18
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {52E82512-310F-4155-BDED-BEA460DA95B1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 32.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {145D02FB-AEFE-461F-8966-1842CD6B8D0D}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 46.36666666666667
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99373B73-B850-4FE3-BD34-19DDD631CE42}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 51.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF870D4F-7400-4E4C-AB01-F0A6004A5C02}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 50.13333333333333
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.13333333333333 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E705DA6-AD72-4F97-B6C1-BF0136229AB1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 54.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {92962F05-ECDA-4EFC-941F-EC2E50CEF23A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 52
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.13333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {273CA2B4-90B0-4597-8E9A-B5FD081A5ACC}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 56.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B92037C3-D572-4A8F-939C-8168E660FF44}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 57.86666666666667
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A2B08FDB-4898-43D7-9DEB-CB0AB7C5F9FF}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 62.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3171C96E-AB6B-4B73-8CE5-A9901A910056}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 59.5
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5B85BA1C-0178-4CC4-B484-13ED946259A3}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 64.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {941D171F-A871-434C-A1F0-BB3830933455}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 70.6
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D69308F-E7C5-4DB7-92C0-376FE8C50751}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 75.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5FBFB68-5B89-44F6-929F-E80689E71AD3}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 72
+      SNAPOFFS 0
+      LENGTH 7.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.1 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {476028E3-7E54-4D85-AFA7-FCD314F23646}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 76.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88446DAB-8129-46F9-98B8-F0E14982B814}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 79.56666666666666
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7252E903-B6AF-4C19-AE58-C624EC1DEAAB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 84.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49C03F83-4ECA-4862-8C06-544DFF842CF9}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 81
+      SNAPOFFS 0
+      LENGTH 29.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A4FF8B2-FFD2-45B4-BD64-29D925132F7D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 85.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7FCDA294-C2EF-4CCB-8DAC-8F018117C867}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 111.36666666666665
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2308DCE8-A305-45B9-BD9C-23A0799E907B}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 116.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12AD3F88-C949-491E-8ED4-5D842E0E6202}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 112.5
+      SNAPOFFS 0
+      LENGTH 3.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.23333333333335 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5E8D2721-8E5B-4C28-8BEC-BADD127B73B5}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 117.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2ED8128-5FC8-40E7-AF7E-8A2748651E59}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 115.76666666666665
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.23333333333335 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F763B06-6D6F-4D3A-9745-F4D5EEDED636}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 120.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B268A7EA-A166-4CA6-8330-29E486AABEAB}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 117.5
+      SNAPOFFS 0
+      LENGTH 13
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {92F81DAE-CBB0-41A2-A9FC-463B497D30EB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 122.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60259741-F1B4-486D-85CE-DEEDD51E5B85}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 130.83333333333334
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7FE8191-7857-4654-99A4-64693C82F651}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 135.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E542F82-03D4-4320-8BCB-B0196356B355}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 132.5
+      SNAPOFFS 0
+      LENGTH 102.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {530C36BA-BF13-4773-9741-5C914D22B842}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 137.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {719D121F-1B2B-41AB-8F42-B422EDF4BD52}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 235.4
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {68BBFD5D-E4CC-4656-9A9D-5580F63D2F8F}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 240.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5CE2D63-CC18-487F-86C1-297E9A0ABC4A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 238.1
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0F8290F0-2BB8-4151-A14B-F651202D76A8}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 242.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13877CF2-167A-4E53-BBEA-45218EC889C5}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 241.3
+      SNAPOFFS 0
+      LENGTH 0.82974282188619
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.00153943881159 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6266B69-C049-459D-8178-3AD8FC0F329D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 245.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EA650BB-03F3-46F7-B669-1F8E8A5CC85B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.12820338307458
+      SNAPOFFS 0
+      LENGTH 2.00512995025869
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00153943881159 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3FF2CF50-F7FD-4BFC-8EAC-E7E667ACA176}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 246.89487004974131
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6580D408-DF67-4199-AC10-B57A89F994EA}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.93333333333334
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21B8CE31-30FD-4806-B126-558172609CB4}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 249.9
+      PLAYRATE 0.93 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7CF8687B-B9F9-40BE-838D-038BE50FA7F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.56666666666666
+      SNAPOFFS 0
+      LENGTH 0.59105054702206
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.09844348721361 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {67FB7920-D9D2-455C-8266-7CF4ACA12753}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 252.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC0D52B2-3084-4FED-B7FD-5683DA3F5BE7}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.05927372647511
+      SNAPOFFS 0
+      LENGTH 0.63281449573788
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.09844348721361 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2803776D-1544-4311-91BC-B1CEFEFAA6EB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 253.59260705980844
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5C59E7A-1C8F-4FA2-BB65-AB61CB87C4FE}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.76679637606551
+      SNAPOFFS 0
+      LENGTH 5.43320359060138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EC3E7EEC-0F47-41F0-9220-57BD9ADBD4D4}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 254.30012970939887
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D46D9277-7F2D-455C-82A8-BD0A45A8BCF8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+  >
+  <TRACK {17901987-D0F6-4310-A194-7123E8F6ED5C}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {17901987-D0F6-4310-A194-7123E8F6ED5C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2.36666666666667
+      SNAPOFFS 0
+      LENGTH 20.63333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.33333333333333 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {975B0698-E5DE-4CEB-9B1C-89322B607A06}
+      IID 3
+      NAME "Bách 0-0_19.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DFFC99C-4F1B-45C1-A3C4-0187DDF5C0BF}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Bách 0-0_19.m4a"
+      >
+    >
+    <ITEM
+      POSITION 22.66666666666667
+      SNAPOFFS 0
+      LENGTH 92.83333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.33333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9F920DD7-AA57-415F-952A-60777208DF47}
+      IID 4
+      NAME "bách 0_19-1_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67BD6659-EA37-4E4F-84BC-7BFB022CD2BB}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 0_19-1_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 115.5
+      SNAPOFFS 0
+      LENGTH 16.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C81C5007-38C8-42A8-B169-3B8DE4254556}
+      IID 5
+      NAME "bách 1_46-2_40.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.9040000333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FFFFCA7-65C5-4EF7-BBF1-74F17FC84DDC}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 1_46-2_40.m4a"
+      >
+    >
+    <ITEM
+      POSITION 132
+      SNAPOFFS 0
+      LENGTH 32
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {592F86F5-F657-425B-99D9-A4B4978516CC}
+      IID 5
+      NAME "bách 1_46-2_40.m4a"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 22.4040000333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01A1D30D-7078-401A-BB90-6BDCE2F44D1D}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 1_46-2_40.m4a"
+      >
+    >
+    <ITEM
+      POSITION 166.33333333333334
+      SNAPOFFS 0
+      LENGTH 7.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0BB5C70-53C8-4594-9123-DF543DC83A4D}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.21029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AC368832-10AA-4F30-A305-F2DF1ADEA0E0}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 174.06666666666666
+      SNAPOFFS 0
+      LENGTH 8.93333333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E624F9E3-F6D6-4DEE-ADFE-1D55D2018CDA}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 15.87696145125122
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E98A7DE-D693-4E29-8B3E-40394E4A7DED}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 183
+      SNAPOFFS 0
+      LENGTH 2.06703719051893
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4299D7C-00F1-4D61-9EA9-FCD7FEF5C73B}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 24.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DEC1CA3A-914B-4ACC-8756-9EC04D3FEA7C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 185.06703719051893
+      SNAPOFFS 0
+      LENGTH 1.6688588492741
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC89AADE-EAED-4BCE-9673-B8B6519DF7D1}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 2.238721 -1
+      SOFFS 26.87733197510349
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50C5B287-30BE-4BF4-9CE2-05EDED306625}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 186.73589603979303
+      SNAPOFFS 0
+      LENGTH 0.26410396020697
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D70C9FEF-EE09-46E6-9130-D41F7E19D019}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 2.511886 -1
+      SOFFS 28.54619082437759
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A79095AD-0E61-4DCA-90B9-62BD3C269E06}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 187
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1453CA73-BA6A-4795-8C83-1381C1E9FC62}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 5.011872 -1
+      SOFFS 28.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D9072DC-FBD7-4E84-939A-5FA5E179F64E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 190
+      SNAPOFFS 0
+      LENGTH 25
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EC21E92B-4CF1-4906-817E-56350C05E9B2}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 31.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {252F9340-70C7-4F59-9F6E-47400E1950C6}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 215.16666666666666
+      SNAPOFFS 0
+      LENGTH 6.32757369614833
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BDC8A076-6AD2-4080-B54B-2EE9328A386A}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 3.162278 -1
+      SOFFS 56.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {180B13EC-1631-4B17-84BA-007948E5EA0F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 221.59424036281501
+      SNAPOFFS 0
+      LENGTH 27.40575963718499
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3E6D4731-AA62-4E33-A3D6-C937824094D5}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 63.13786848073289
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FC11308-CEA9-4775-B468-349B0F5B9193}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.9
+      SNAPOFFS 0
+      LENGTH 4.92303848208215
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.1 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2202EA54-8481-4291-94EF-283B5A568515}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 90.54362811791788
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BABEA7FA-7103-4535-B6F0-940D782EB64B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+  >
+  <TRACK {5EBD8B61-91CE-45E6-A66C-C108886B4C67}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.74533253398761 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5EBD8B61-91CE-45E6-A66C-C108886B4C67}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 44
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D659D445-D22E-4FF8-B2CE-CAF5D2B38ACF}
+      IID 7
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BF4DC7C-E327-4153-8E49-9A19546F7E63}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.93333333333334 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {316ADC50-537C-4435-B69C-E48271FD0178}
+      IID 7
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 44
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {343083C0-B23A-4346-924B-D3DA68F0046C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 53.56666666666666
+      SNAPOFFS 0
+      LENGTH 63.93333333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.93333333333334 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49A00B46-1E47-42AC-A6D4-C8EA50186568}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC3E95FE-D1D9-4F92-8DB6-5CAC5FBF28EE}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 117.76666666666665
+      SNAPOFFS 0
+      LENGTH 6.73333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26C704D4-077F-467F-984D-A5724E901629}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 65.43333333333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4FF25DF9-C4F3-4BA4-A3F0-B15AEBE495B1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 124.5
+      SNAPOFFS 0
+      LENGTH 6.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BCCAE172-B7CC-45F2-A19C-009D4033BADA}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 72.16666666666669
+      PLAYRATE 0.98 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CC06E55-4856-4652-B38E-194D3496259B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 131
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.33333333333334 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B073F064-3DAC-4ABB-B0B1-0C21409DE4CB}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 78.66666666666669
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {91E3B73B-1772-4391-B211-38C2C394AD63}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 133.66666666666666
+      SNAPOFFS 0
+      LENGTH 50.33333333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.33333333333334 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D66523E3-DE74-4F75-91A6-8C552E172054}
+      IID 9
+      NAME "Hunge 2_11-3_52.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 13.24266670004187
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3DCDB2A-B64A-4A68-B3CF-569A10494AB1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 2_11-3_52.m4a"
+      >
+    >
+    <ITEM
+      POSITION 217.5
+      SNAPOFFS 0
+      LENGTH 15
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CE8CFA1-D8C6-45D6-B4F9-9BD2C854A1A1}
+      IID 9
+      NAME "Hunge 2_11-3_52.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 101.07600003337521
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D68963C4-1228-4829-8C74-26F5BF2FF8F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 2_11-3_52.m4a"
+      >
+    >
+    <ITEM
+      POSITION 234.26666666666662
+      SNAPOFFS 0
+      LENGTH 7.67274376417274
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2772A7AF-C2C3-4F5A-A2A7-E8A35CD17361}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 8
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8E9F9882-73E5-44B4-9EA4-4E84C1966687}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.07274376417269
+      SNAPOFFS 0
+      LENGTH 1.99392290249398
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4092756A-9139-4355-8C39-8B9F31880CBF}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 15.67274376417274
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCB3F566-92DA-4723-800E-B09FE500C232}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.5
+      SNAPOFFS 0
+      LENGTH 8.77733333333336
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {305E0CA6-9F3A-43C8-B488-301E755DB5A8}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 18.16666666666671
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F25C09AD-143E-4FAA-8CE0-4C842BB0FCA1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 258
+      SNAPOFFS 0
+      LENGTH 13.152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {359DF72D-18C2-4A63-9050-5F8FC875DB80}
+      IID 26
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 44
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D5951D5-19C8-46CE-BCF8-BD8329D2F2D3}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+  >
+  <TRACK {40AD96D2-1CE7-4AED-8918-0EAA47215086}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {40AD96D2-1CE7-4AED-8918-0EAA47215086}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 248
+      SNAPOFFS 0
+      LENGTH 4.87066663333331
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {737F30F1-1CE0-4F82-9F91-BD89DB8B6F3E}
+      IID 41
+      NAME "bè cuối.m4a"
+      VOLPAN 1 0 1.258925 -1
+      SOFFS 7.56666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {774B91AB-022B-46F6-9624-29424D3FD7F2}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bè cuối.m4a"
+      >
+    >
+  >
+  <TRACK {63B3BDD4-F648-4434-9FCC-0CBF1C99CF71}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {63B3BDD4-F648-4434-9FCC-0CBF1C99CF71}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.43333333333333
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4CCC4C7-A0C9-428A-BA25-3C2E537228D4}
+      IID 48
+      NAME "đoạn 1_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 2.36975056689342
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {48A59303-3BEF-4765-B01E-8A0BFB885A94}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 1_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 7.33333333333333
+      SNAPOFFS 0
+      LENGTH 22.77154943310655
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {00D55FC8-2463-4B7D-AF29-C7955594277A}
+      IID 48
+      NAME "đoạn 1_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 6.36975056689343
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB85AFA1-102D-4002-BC5C-398BEDAD55EC}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 1_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 46.5
+      SNAPOFFS 0
+      LENGTH 49
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8F63F464-94A4-4DA0-B3A4-48043ECC7BB9}
+      IID 47
+      NAME "đoạn 2_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 8
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0FBEE9E-106C-4C13-A6FD-9AFFDA5565A6}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 2_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 106.03333333333333
+      SNAPOFFS 0
+      LENGTH 23.9893
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {40AC2D91-A356-4C46-BC08-B5092329ACC0}
+      IID 46
+      NAME "đoạn 3_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EED32CD0-6025-412B-BEA4-CE812F9E190B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 3_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 131.83333333333334
+      SNAPOFFS 0
+      LENGTH 19.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBAA225D-A9DA-4D28-9B83-78F4B569DBAE}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.334965 -1
+      SOFFS 3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EE5EE3F-4AE0-415E-896C-E642C1C52948}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 151.93333333333334
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C3A6235-5A6D-4A86-B9DB-2B5C9B40B72E}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 23.16666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {517F328C-4986-40E8-93BB-0EFB1C72461E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 153.5
+      SNAPOFFS 0
+      LENGTH 39
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {28D4354D-CE0A-438D-BFE6-69414C1EF2A0}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 24.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF0EAB85-9CBF-4BD7-B213-26F91254A358}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 192.5
+      SNAPOFFS 0
+      LENGTH 5.21863333333332
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EDA10AD2-2A4B-4E01-90A6-39E80712F946}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 63.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FAF1ED5D-1E4E-4F3F-B217-46DEBE46C7E8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 219.83333333333334
+      SNAPOFFS 0
+      LENGTH 17.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0EA83F5C-3210-47B5-91C0-CAC215840F9F}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 4.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2FF508AA-62FE-42C9-AC83-423BD4C4B8C8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 238
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FE49409B-AD76-42F2-A6D7-F0216932A18F}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 22.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D14CF766-2C79-4333-8F12-03E8ECBC761F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 241.26666666666668
+      SNAPOFFS 0
+      LENGTH 0.93900226757447
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.06666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26FF3D1F-CC63-42C6-BA54-9CFF293426A4}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 25.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BED3300D-DD34-470B-9311-26862F7750B5}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.13900226757448
+      SNAPOFFS 0
+      LENGTH 2.36099773242552
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06666666666666 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {515F8216-0546-4F89-A865-081F3B644A8B}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 26.60566893424112
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB7DC815-5211-4E34-9CC3-06AFBD97266E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.5
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A455A356-B38A-45DD-A996-A54BC1824ABD}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 28.96666666666664
+      PLAYRATE 1.06 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B47F218-CCF0-43B7-980A-4D63CE49D3E4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.3
+      SNAPOFFS 0
+      LENGTH 1.13333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {856F4DC9-D6F6-4885-B74E-13BA435B17B4}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 32.96666666666664
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74878ADE-2A02-46A0-9D4B-38B094640285}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.5
+      SNAPOFFS 0
+      LENGTH 3.532
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8F0EAFFB-04B8-42F9-BEC2-F6F9BCB099A8}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 34.1
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8853C1EC-A5FD-4BCD-8F3F-F0072A21DF34}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+  >
+  <TRACK {6EFED101-D612-4DDD-95DB-291121EBE7BB}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6EFED101-D612-4DDD-95DB-291121EBE7BB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+>

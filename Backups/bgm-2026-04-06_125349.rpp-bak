@@ -1,0 +1,5110 @@
+<REAPER_PROJECT 0.1 "7.67/win64" 1775451229 0
+  <NOTES 0 2
+  >
+  RIPPLE 0 0
+  GROUPOVERRIDE 1 0 0 0
+  AUTOXFADE 129
+  ENVATTACH 3
+  POOLEDENVATTACH 0
+  TCPUIFLAGS 0
+  MIXERUIFLAGS 11 48
+  ENVFADESZ10 40
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 0
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1 0
+  VIDEO_CONFIG 0 0 65792
+  PANMODE 3
+  PANLAWFLAGS 3
+  CURSOR 234
+  ZOOM 29.18027370327979 5807 0
+  VZOOMEX 6.61206913 388
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "Media" ""
+  <RECORD_CFG
+    ZXZhdxgAAQ==
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE ""
+  RENDER_PATTERN ""
+  RENDER_FMT 0 2 0
+  RENDER_1X 0
+  RENDER_RANGE 1 0 0 0 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 0
+  RENDER_DITHER 0
+  RENDER_TRIM 0.000001 0.000001 0 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 1
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAQ==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    BEATLEN 4
+    FREQ 1760 880 1
+    SAMPLES "" "" "" ""
+    SPLIGNORE 0 0
+    SPLDEF 2 660 "" 0 ""
+    SPLDEF 3 440 "" 0 ""
+    PATTERN 0 169
+    PATTERNSTR ABBB
+    MULT 1
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4 0
+  PLAYRATE 1 0 0.25 4
+  SELECTION 5.5 29
+  SELECTION2 5.5 29
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0 0 0 0 0 0 0 0 1
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_PANMODE 3
+  MASTER_PANLAWFLAGS 3
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    EGUID {D268199D-A029-4939-9041-DBF6F6B5A7E9}
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    EGUID {6914234A-1E11-49AC-977C-3991A2DF77FE}
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  RULERHEIGHT 86 86
+  RULERLANE 1 4 "" 0 -1
+  RULERLANE 2 8 "" 0 -1
+  <PROJBAY
+  >
+  <TRACK {B1C1114E-1D2F-4A06-ACA3-989DECD63E54}
+    NAME "KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA]"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.23456058929776 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B1C1114E-1D2F-4A06-ACA3-989DECD63E54}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 257.18421768707481
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3C4E8145-3EB7-4F1B-9055-38BBF722BC55}
+      IID 1
+      NAME "KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA].mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8B255368-7893-4114-9A3C-E35CB382289A}
+      <SOURCE MP3
+        FILE "C:\Users\PC\Documents\Gift\KARAOKE _ Phép Màu - MAYDAYs, Minh Tốc [sT49aWnNDpA].mp3" 1
+      >
+    >
+  >
+  <TRACK {87CF3A8B-537A-477D-B496-91DB9EC750B4}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 0.1023765046481 0 -1 -1 1
+    MUTESOLO 1 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {87CF3A8B-537A-477D-B496-91DB9EC750B4}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2
+      SNAPOFFS 0
+      LENGTH 255.11764172335597
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C968E088-F0A2-41F4-83B0-ED50F68150C6}
+      IID 14
+      NAME "Phép Màu (Đàn Cá Gỗ OST) - Mounter x MAYDAYs, Minh Tốc _ Official MV.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7321966A-DE9B-42B9-8DBF-6F77B1E2038B}
+      <SOURCE MP3
+        FILE "Phép Màu (Đàn Cá Gỗ OST) - Mounter x MAYDAYs, Minh Tốc _ Official MV.mp3" 1
+      >
+    >
+  >
+  <TRACK {1D4B0E05-D41B-470E-BF93-D79A3996501D}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {1D4B0E05-D41B-470E-BF93-D79A3996501D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 6
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E87CAF7E-B768-4F1F-B10F-F15E0C19B8C1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 10.73333333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D29BD77F-05C9-4891-AA56-BE35F49576F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 7.83333333333333
+      SNAPOFFS 0
+      LENGTH 9.16666666666667
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F4952781-CC1B-4742-B04C-0A6DD8BB376D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 12.73333333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7A72087B-25E3-4E55-8F3D-00F61A9CB16F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 19.13333333333333
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {698C6FDE-94ED-40B4-A4A2-221B2ABFBE3D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 23.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B8869007-3918-4527-858C-4DF2F4CE6241}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 21.5
+      SNAPOFFS 0
+      LENGTH 4.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A74A8AF-3EA2-4630-9841-6DC9B545FF0E}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 26.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0F5DDB70-3DEA-49B5-AA8A-24B873CEF24C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 26.43333333333333
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2D30116-7842-4F63-B8F3-60F4891D9049}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 31.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE390D33-6990-4E82-9E19-38EB2995402E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 28
+      SNAPOFFS 0
+      LENGTH 18
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {52E82512-310F-4155-BDED-BEA460DA95B1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 32.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {145D02FB-AEFE-461F-8966-1842CD6B8D0D}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 46.36666666666667
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {99373B73-B850-4FE3-BD34-19DDD631CE42}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 51.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF870D4F-7400-4E4C-AB01-F0A6004A5C02}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 50.13333333333333
+      SNAPOFFS 0
+      LENGTH 2
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.13333333333333 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1E705DA6-AD72-4F97-B6C1-BF0136229AB1}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 54.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {92962F05-ECDA-4EFC-941F-EC2E50CEF23A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 52
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.13333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {273CA2B4-90B0-4597-8E9A-B5FD081A5ACC}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 56.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B92037C3-D572-4A8F-939C-8168E660FF44}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 57.86666666666667
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A2B08FDB-4898-43D7-9DEB-CB0AB7C5F9FF}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 62.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3171C96E-AB6B-4B73-8CE5-A9901A910056}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 59.5
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5B85BA1C-0178-4CC4-B484-13ED946259A3}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 64.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {941D171F-A871-434C-A1F0-BB3830933455}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 70.6
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2D69308F-E7C5-4DB7-92C0-376FE8C50751}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 75.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5FBFB68-5B89-44F6-929F-E80689E71AD3}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 72
+      SNAPOFFS 0
+      LENGTH 7.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.1 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {476028E3-7E54-4D85-AFA7-FCD314F23646}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 76.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88446DAB-8129-46F9-98B8-F0E14982B814}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 79.56666666666666
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7252E903-B6AF-4C19-AE58-C624EC1DEAAB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.562341 -1
+      SOFFS 84.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {49C03F83-4ECA-4862-8C06-544DFF842CF9}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 81
+      SNAPOFFS 0
+      LENGTH 14.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5A4FF8B2-FFD2-45B4-BD64-29D925132F7D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 85.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7FCDA294-C2EF-4CCB-8DAC-8F018117C867}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 95.5
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A46109A8-C217-4B07-9392-5B745B2967CD}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.794328 -1
+      SOFFS 100.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C90FB21D-EDDB-4EBA-9075-CA7FE29873B8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 97
+      SNAPOFFS 0
+      LENGTH 13.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5C0B87F5-4D87-4538-80C9-D75CD7975BF6}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 101.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1889E0B9-1D9C-4262-99BA-343C18713ACF}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 111.36666666666665
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2308DCE8-A305-45B9-BD9C-23A0799E907B}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 116.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {12AD3F88-C949-491E-8ED4-5D842E0E6202}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 112.5
+      SNAPOFFS 0
+      LENGTH 3.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.23333333333335 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5E8D2721-8E5B-4C28-8BEC-BADD127B73B5}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 117.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A2ED8128-5FC8-40E7-AF7E-8A2748651E59}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 115.76666666666665
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.23333333333335 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F763B06-6D6F-4D3A-9745-F4D5EEDED636}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 120.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B268A7EA-A166-4CA6-8330-29E486AABEAB}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 117.5
+      SNAPOFFS 0
+      LENGTH 13
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {92F81DAE-CBB0-41A2-A9FC-463B497D30EB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 122.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60259741-F1B4-486D-85CE-DEEDD51E5B85}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 130.83333333333334
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E7FE8191-7857-4654-99A4-64693C82F651}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 135.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9E542F82-03D4-4320-8BCB-B0196356B355}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 132.5
+      SNAPOFFS 0
+      LENGTH 64
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {530C36BA-BF13-4773-9741-5C914D22B842}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 137.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {719D121F-1B2B-41AB-8F42-B422EDF4BD52}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 196.5
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {83B3714E-D56F-4B3B-903E-A923C1AA7CDD}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 201.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6A8AF2E2-8D73-4EF0-A83B-AFABD8AAB052}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 199.5
+      SNAPOFFS 0
+      LENGTH 35.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {612A426F-EAE1-465F-90E5-B763EBC499E7}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 204.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {35F79DEA-00C8-4549-B58D-63651840EA74}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 235.4
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {68BBFD5D-E4CC-4656-9A9D-5580F63D2F8F}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 240.4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E5CE2D63-CC18-487F-86C1-297E9A0ABC4A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 238.1
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0F8290F0-2BB8-4151-A14B-F651202D76A8}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 242.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {13877CF2-167A-4E53-BBEA-45218EC889C5}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 241.3
+      SNAPOFFS 0
+      LENGTH 0.82974282188619
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.00153943881162 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E6266B69-C049-459D-8178-3AD8FC0F329D}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 245.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EA650BB-03F3-46F7-B669-1F8E8A5CC85B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.12820338307458
+      SNAPOFFS 0
+      LENGTH 2.00512995025869
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.00153943881162 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3FF2CF50-F7FD-4BFC-8EAC-E7E667ACA176}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 246.89487004974131
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6580D408-DF67-4199-AC10-B57A89F994EA}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.93333333333334
+      SNAPOFFS 0
+      LENGTH 2.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {21B8CE31-30FD-4806-B126-558172609CB4}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 249.9
+      PLAYRATE 0.93 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7CF8687B-B9F9-40BE-838D-038BE50FA7F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.56666666666666
+      SNAPOFFS 0
+      LENGTH 0.59105054702206
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.09844348721361 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {67FB7920-D9D2-455C-8266-7CF4ACA12753}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 252.9
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC0D52B2-3084-4FED-B7FD-5683DA3F5BE7}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.05927372647511
+      SNAPOFFS 0
+      LENGTH 0.63281449573788
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.09844348721361 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2803776D-1544-4311-91BC-B1CEFEFAA6EB}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 0.630957 -1
+      SOFFS 253.59260705980844
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A5C59E7A-1C8F-4FA2-BB65-AB61CB87C4FE}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.76679637606551
+      SNAPOFFS 0
+      LENGTH 5.43320359060138
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EC3E7EEC-0F47-41F0-9220-57BD9ADBD4D4}
+      IID 2
+      NAME "okla dan ca go.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 254.30012970939887
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D46D9277-7F2D-455C-82A8-BD0A45A8BCF8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "okla dan ca go.m4a"
+      >
+    >
+  >
+  <TRACK {17901987-D0F6-4310-A194-7123E8F6ED5C}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {17901987-D0F6-4310-A194-7123E8F6ED5C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 2.36666666666667
+      SNAPOFFS 0
+      LENGTH 20.63333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.33333333333333 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {975B0698-E5DE-4CEB-9B1C-89322B607A06}
+      IID 3
+      NAME "Bách 0-0_19.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DFFC99C-4F1B-45C1-A3C4-0187DDF5C0BF}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Bách 0-0_19.m4a"
+      >
+    >
+    <ITEM
+      POSITION 22.66666666666667
+      SNAPOFFS 0
+      LENGTH 3.83333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0 0.33333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9F920DD7-AA57-415F-952A-60777208DF47}
+      IID 4
+      NAME "bách 0_19-1_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {67BD6659-EA37-4E4F-84BC-7BFB022CD2BB}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 0_19-1_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 26.56666666666667
+      SNAPOFFS 0
+      LENGTH 89
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.06666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6478D862-DDF1-462F-AFA9-68EEB6AFD277}
+      IID 4
+      NAME "bách 0_19-1_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 6.33333333333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {30EF8EEF-5132-4C02-A92D-F7F6A72443FC}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 0_19-1_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 115.5
+      SNAPOFFS 0
+      LENGTH 16.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06666666666666 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C81C5007-38C8-42A8-B169-3B8DE4254556}
+      IID 5
+      NAME "bách 1_46-2_40.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.9040000333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FFFFCA7-65C5-4EF7-BBF1-74F17FC84DDC}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 1_46-2_40.m4a"
+      >
+    >
+    <ITEM
+      POSITION 132
+      SNAPOFFS 0
+      LENGTH 32
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {592F86F5-F657-425B-99D9-A4B4978516CC}
+      IID 5
+      NAME "bách 1_46-2_40.m4a"
+      VOLPAN 1 0 1.333521 -1
+      SOFFS 22.4040000333333
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {01A1D30D-7078-401A-BB90-6BDCE2F44D1D}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách 1_46-2_40.m4a"
+      >
+    >
+    <ITEM
+      POSITION 166.33333333333334
+      SNAPOFFS 0
+      LENGTH 7.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E0BB5C70-53C8-4594-9123-DF543DC83A4D}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.21029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AC368832-10AA-4F30-A305-F2DF1ADEA0E0}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 174.06666666666666
+      SNAPOFFS 0
+      LENGTH 8.93333333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E624F9E3-F6D6-4DEE-ADFE-1D55D2018CDA}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 15.87696145125122
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4E98A7DE-D693-4E29-8B3E-40394E4A7DED}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 183
+      SNAPOFFS 0
+      LENGTH 2.06703719051893
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A4299D7C-00F1-4D61-9EA9-FCD7FEF5C73B}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 24.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DEC1CA3A-914B-4ACC-8756-9EC04D3FEA7C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 185.06703719051893
+      SNAPOFFS 0
+      LENGTH 1.66885884927407
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC89AADE-EAED-4BCE-9673-B8B6519DF7D1}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 2.238721 -1
+      SOFFS 26.87733197510349
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50C5B287-30BE-4BF4-9CE2-05EDED306625}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 186.735896039793
+      SNAPOFFS 0
+      LENGTH 0.264103960207
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D70C9FEF-EE09-46E6-9130-D41F7E19D019}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 2.511886 -1
+      SOFFS 28.54619082437759
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A79095AD-0E61-4DCA-90B9-62BD3C269E06}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 187
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1453CA73-BA6A-4795-8C83-1381C1E9FC62}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 4.677351 -1
+      SOFFS 28.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D9072DC-FBD7-4E84-939A-5FA5E179F64E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 190
+      SNAPOFFS 0
+      LENGTH 25
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EC21E92B-4CF1-4906-817E-56350C05E9B2}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 31.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {252F9340-70C7-4F59-9F6E-47400E1950C6}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 215.16666666666666
+      SNAPOFFS 0
+      LENGTH 6.32757369614833
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BDC8A076-6AD2-4080-B54B-2EE9328A386A}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 3.162278 -1
+      SOFFS 56.81029478458456
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {180B13EC-1631-4B17-84BA-007948E5EA0F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 221.59424036281501
+      SNAPOFFS 0
+      LENGTH 27.40575963718499
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.1 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3E6D4731-AA62-4E33-A3D6-C937824094D5}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 63.13786848073289
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1FC11308-CEA9-4775-B468-349B0F5B9193}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.9
+      SNAPOFFS 0
+      LENGTH 4.92303848208215
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.1 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2202EA54-8481-4291-94EF-283B5A568515}
+      IID 6
+      NAME "bách cuối.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 90.54362811791788
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BABEA7FA-7103-4535-B6F0-940D782EB64B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bách cuối.m4a"
+      >
+    >
+  >
+  <TRACK {5EBD8B61-91CE-45E6-A66C-C108886B4C67}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.74533253398761 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 0 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {5EBD8B61-91CE-45E6-A66C-C108886B4C67}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 44
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D659D445-D22E-4FF8-B2CE-CAF5D2B38ACF}
+      IID 7
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BF4DC7C-E327-4153-8E49-9A19546F7E63}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 10.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.93333333333333 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {316ADC50-537C-4435-B69C-E48271FD0178}
+      IID 7
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 0.954993 -1
+      SOFFS 44
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {343083C0-B23A-4346-924B-D3DA68F0046C}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+    <ITEM
+      POSITION 53.56666666666667
+      SNAPOFFS 0
+      LENGTH 63.93333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.93333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49A00B46-1E47-42AC-A6D4-C8EA50186568}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 1.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DC3E95FE-D1D9-4F92-8DB6-5CAC5FBF28EE}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 117.76666666666665
+      SNAPOFFS 0
+      LENGTH 6.73333333333335
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26C704D4-077F-467F-984D-A5724E901629}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 65.43333333333334
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4FF25DF9-C4F3-4BA4-A3F0-B15AEBE495B1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 124.5
+      SNAPOFFS 0
+      LENGTH 6.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.06666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {BCCAE172-B7CC-45F2-A19C-009D4033BADA}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 72.16666666666669
+      PLAYRATE 0.98 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2CC06E55-4856-4652-B38E-194D3496259B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 130.93333333333334
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06666666666666 1 1 0 0
+      FADEOUT 1.1 0.01 0.26666666666668 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B073F064-3DAC-4ABB-B0B1-0C21409DE4CB}
+      IID 8
+      NAME "Hunge 0_46-2_11.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 78.66666666666669
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {91E3B73B-1772-4391-B211-38C2C394AD63}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 0_46-2_11.m4a"
+      >
+    >
+    <ITEM
+      POSITION 133.66666666666666
+      SNAPOFFS 0
+      LENGTH 50.33333333333334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.26666666666668 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D66523E3-DE74-4F75-91A6-8C552E172054}
+      IID 9
+      NAME "Hunge 2_11-3_52.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 13.24266670004187
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E3DCDB2A-B64A-4A68-B3CF-569A10494AB1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 2_11-3_52.m4a"
+      >
+    >
+    <ITEM
+      POSITION 217.5
+      SNAPOFFS 0
+      LENGTH 15
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CE8CFA1-D8C6-45D6-B4F9-9BD2C854A1A1}
+      IID 9
+      NAME "Hunge 2_11-3_52.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 101.07600003337521
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D68963C4-1228-4829-8C74-26F5BF2FF8F4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge 2_11-3_52.m4a"
+      >
+    >
+    <ITEM
+      POSITION 234.26666666666662
+      SNAPOFFS 0
+      LENGTH 7.67274376417274
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2772A7AF-C2C3-4F5A-A2A7-E8A35CD17361}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1.188502 -1
+      SOFFS 8
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8E9F9882-73E5-44B4-9EA4-4E84C1966687}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.07274376417269
+      SNAPOFFS 0
+      LENGTH 1.99392290249398
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4092756A-9139-4355-8C39-8B9F31880CBF}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1.188502 -1
+      SOFFS 15.67274376417274
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCB3F566-92DA-4723-800E-B09FE500C232}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.5
+      SNAPOFFS 0
+      LENGTH 8.77733333333336
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {305E0CA6-9F3A-43C8-B488-301E755DB5A8}
+      IID 10
+      NAME "Hunge cuối.m4a"
+      VOLPAN 1 0 1.188502 -1
+      SOFFS 18.16666666666671
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F25C09AD-143E-4FAA-8CE0-4C842BB0FCA1}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge cuối.m4a"
+      >
+    >
+    <ITEM
+      POSITION 255.5
+      SNAPOFFS 0
+      LENGTH 13.152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {359DF72D-18C2-4A63-9050-5F8FC875DB80}
+      IID 26
+      NAME "Hunge Đầu-0_46.m4a"
+      VOLPAN 1 0 1 -1
+      SOFFS 44
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3D5951D5-19C8-46CE-BCF8-BD8329D2F2D3}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "Hunge Đầu-0_46.m4a"
+      >
+    >
+  >
+  <TRACK {40AD96D2-1CE7-4AED-8918-0EAA47215086}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {40AD96D2-1CE7-4AED-8918-0EAA47215086}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 248
+      SNAPOFFS 0
+      LENGTH 4.87066663333331
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {737F30F1-1CE0-4F82-9F91-BD89DB8B6F3E}
+      IID 41
+      NAME "bè cuối.m4a"
+      VOLPAN 1 0 1.244515 -1
+      SOFFS 7.56666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {774B91AB-022B-46F6-9624-29424D3FD7F2}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "bè cuối.m4a"
+      >
+    >
+  >
+  <TRACK {63B3BDD4-F648-4434-9FCC-0CBF1C99CF71}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {63B3BDD4-F648-4434-9FCC-0CBF1C99CF71}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 3.43333333333333
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E4CCC4C7-A0C9-428A-BA25-3C2E537228D4}
+      IID 48
+      NAME "đoạn 1_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 2.36975056689342
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {48A59303-3BEF-4765-B01E-8A0BFB885A94}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 1_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 7.33333333333333
+      SNAPOFFS 0
+      LENGTH 22.77154943310655
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {00D55FC8-2463-4B7D-AF29-C7955594277A}
+      IID 48
+      NAME "đoạn 1_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 6.36975056689343
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB85AFA1-102D-4002-BC5C-398BEDAD55EC}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 1_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 46.5
+      SNAPOFFS 0
+      LENGTH 49
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8F63F464-94A4-4DA0-B3A4-48043ECC7BB9}
+      IID 47
+      NAME "đoạn 2_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 8
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D0FBEE9E-106C-4C13-A6FD-9AFFDA5565A6}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 2_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 106.03333333333333
+      SNAPOFFS 0
+      LENGTH 23.9893
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {40AC2D91-A356-4C46-BC08-B5092329ACC0}
+      IID 46
+      NAME "đoạn 3_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EED32CD0-6025-412B-BEA4-CE812F9E190B}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 3_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 131.83333333333334
+      SNAPOFFS 0
+      LENGTH 19.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EBAA225D-A9DA-4D28-9B83-78F4B569DBAE}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.334965 -1
+      SOFFS 3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7EE5EE3F-4AE0-415E-896C-E642C1C52948}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 151.93333333333334
+      SNAPOFFS 0
+      LENGTH 1.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7C3A6235-5A6D-4A86-B9DB-2B5C9B40B72E}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 23.16666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {517F328C-4986-40E8-93BB-0EFB1C72461E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 153.5
+      SNAPOFFS 0
+      LENGTH 39
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {28D4354D-CE0A-438D-BFE6-69414C1EF2A0}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 24.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF0EAB85-9CBF-4BD7-B213-26F91254A358}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 192.5
+      SNAPOFFS 0
+      LENGTH 5.21863333333332
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EDA10AD2-2A4B-4E01-90A6-39E80712F946}
+      IID 44
+      NAME "đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      VOLPAN 1 0 0.446684 -1
+      SOFFS 63.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FAF1ED5D-1E4E-4F3F-B217-46DEBE46C7E8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 4 (chữ tôi của tớ bị nhanh nên đẩy lên nhé)_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 219.73333333333329
+      SNAPOFFS 0
+      LENGTH 0.66666666666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0EA83F5C-3210-47B5-91C0-CAC215840F9F}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 4.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2FF508AA-62FE-42C9-AC83-423BD4C4B8C8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 220.5
+      SNAPOFFS 0
+      LENGTH 6
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.16666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D2969B31-2FC8-4EFC-A8CC-5DC5BC7D6B01}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 5.16666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ACD8CFAE-65FB-40F3-A1DB-C25F303B3D67}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 226.33333333333334
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.16666666666666 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1D5080D2-49BA-4BE6-BA5A-D28A638DEA01}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 11.16666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {662ECED3-6474-4945-8124-C07F536350F8}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 227.5
+      SNAPOFFS 0
+      LENGTH 10
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5F1159C6-9761-4A8E-9F3F-EDF442986CFD}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 12.16666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EB1815E2-4D22-4ABE-971F-EEA191A014B2}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 238
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FE49409B-AD76-42F2-A6D7-F0216932A18F}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.316228 -1
+      SOFFS 22.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D14CF766-2C79-4333-8F12-03E8ECBC761F}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 241.26666666666668
+      SNAPOFFS 0
+      LENGTH 0.93900226757447
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.06666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {26FF3D1F-CC63-42C6-BA54-9CFF293426A4}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 25.66666666666666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BED3300D-DD34-470B-9311-26862F7750B5}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 242.13900226757448
+      SNAPOFFS 0
+      LENGTH 2.36099773242552
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06666666666666 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {515F8216-0546-4F89-A865-081F3B644A8B}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 26.60566893424112
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BB7DC815-5211-4E34-9CC3-06AFBD97266E}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 244.5
+      SNAPOFFS 0
+      LENGTH 3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A455A356-B38A-45DD-A996-A54BC1824ABD}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.354813 -1
+      SOFFS 28.96666666666664
+      PLAYRATE 1.06 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3B47F218-CCF0-43B7-980A-4D63CE49D3E4}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 248.3
+      SNAPOFFS 0
+      LENGTH 1.13333333333333
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {856F4DC9-D6F6-4885-B74E-13BA435B17B4}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.398107 -1
+      SOFFS 32.96666666666664
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {74878ADE-2A02-46A0-9D4B-38B094640285}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+    <ITEM
+      POSITION 249.5
+      SNAPOFFS 0
+      LENGTH 3.532
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {8F0EAFFB-04B8-42F9-BEC2-F6F9BCB099A8}
+      IID 45
+      NAME "đoạn 5_1.m4a"
+      VOLPAN 1 0 0.398107 -1
+      SOFFS 34.1
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8853C1EC-A5FD-4BCD-8F3F-F0072A21DF34}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "C:\Users\PC\Downloads\đoạn 5_1.m4a"
+      >
+    >
+  >
+  <TRACK {6EFED101-D612-4DDD-95DB-291121EBE7BB}
+    NAME "Interview recording 13"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {6EFED101-D612-4DDD-95DB-291121EBE7BB}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 4.7
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.08 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {255D02F9-CAA5-41EB-B8C7-652CD52BA424}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA7B8665-4390-4D14-9B06-C3B607F7936E}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 5.2
+      SNAPOFFS 0
+      LENGTH 1.94606526045178
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {699A49BA-3481-4CFA-AAD7-78683B49B68F}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {32B09112-BAF0-4D07-A39D-3E337E74DE2D}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 7.27939859378511
+      SNAPOFFS 0
+      LENGTH 0.37490279353488
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9FAC28EE-5425-4792-87E2-8123F4B04149}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.44606526045178
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {47470E01-84D1-40E9-8A4E-583156567D92}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 7.52096805398666
+      SNAPOFFS 0
+      LENGTH 3.67903194601334
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.13333333333333 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {F8925F32-68DF-4720-8EDF-43206BA104BE}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.82096805398666
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {20767A56-3BBD-4DE1-B0E8-C2002F79D381}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 11.2
+      SNAPOFFS 0
+      LENGTH 0.09135025104339
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {C28B13CE-A6ED-4610-B1A1-CBB9DEE34F86}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 11.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F3D55580-84D2-4EF8-97D0-B2337B7C6A28}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 11.45801691771006
+      SNAPOFFS 0
+      LENGTH 0.33187649863788
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {58E8F413-96B9-4945-8ADA-AA7E55145670}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 11.59135025104339
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E766C25B-6162-45DD-8320-082CD64D9AC6}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 14.05213260501059
+      SNAPOFFS 0
+      LENGTH 0.28360515600628
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.0025 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7537BFF3-F6C1-42BE-A8D1-CEF08FB133C1}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.35213260501059
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3BD6C36A-E3B0-4DAE-82E8-D84ACE05EF34}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 14.33573776101687
+      SNAPOFFS 0
+      LENGTH 2.46474751513089
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.0025 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {4C89D746-0C77-476C-AD07-CEBE69C38D69}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.63573776101687
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {377AFAB1-E4FD-460C-BF88-3506418F3B30}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 16.90048527614777
+      SNAPOFFS 0
+      LENGTH 0.59591776359559
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6A80A8E5-2E8A-4D23-8133-674F07B40915}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.10048527614777
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06429586-52B1-4C9B-9836-EA61C64D21D4}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 17.39640303974335
+      SNAPOFFS 0
+      LENGTH 3.06613868909443
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.1 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {4027B48C-CD57-4B18-9049-61A1C0C96173}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.69640303974336
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {557C30FD-E4A2-4312-8F79-5D37328C2B83}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 20.59587506217112
+      SNAPOFFS 0
+      LENGTH 0.31116340756963
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {84956778-840E-4AA5-B72E-9DA8BEEDE9D6}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 20.76254172883779
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6146CF22-863F-415C-A1D3-0DD148A5BF17}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 20.77370513640741
+      SNAPOFFS 0
+      LENGTH 2.62629486359258
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.13333333333335 1 1 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {BD2FEF66-BB95-4F2A-B01B-911781829C7F}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 21.07370513640742
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FB5BCD5E-01D1-49F4-AC8C-BFEC004B2A44}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 23.4
+      SNAPOFFS 0
+      LENGTH 2.01
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {BA9E0C23-1836-4000-8EA6-688E7F60A5FE}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 23.7
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BDC252A8-1323-4522-B280-1C54767A1E1B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 25.57666666666666
+      SNAPOFFS 0
+      LENGTH 0.265
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9F139C32-C7E2-41E5-AF0E-3DAF9C1B0A6F}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 25.71
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {41F8E7E4-72E6-481A-9CDB-4BEC5E45DDD8}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 27.44666666666666
+      SNAPOFFS 0
+      LENGTH 0.27
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.06666666666666 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7F6C882C-A3CC-4002-B415-FDB2ACFCD0E9}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 27.68
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {22652ADC-2FDC-4052-9DBD-DE8702236D33}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 27.65
+      SNAPOFFS 0
+      LENGTH 2.00297916666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.01 0.06666666666666 1 1 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {33EE3FAE-23E5-4D58-A1E0-7C2983DFDD28}
+      IID 100
+      NAME "Interview recording 2.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 27.95
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8DEDEE5-80C5-413E-BFC6-F4688545A6DA}
+      <SOURCE MP3
+        FILE "Media\Interview recording 2.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 2.mp3"
+      >
+    >
+    <ITEM
+      POSITION 44
+      SNAPOFFS 0
+      LENGTH 1.78021858735748
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {B8DACD4E-6478-4FBF-B6AE-C27D7FDD8E9F}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {23B20F1D-40CA-49BC-AAAE-52C8D3BD0B4B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 45.78021858735748
+      SNAPOFFS 0
+      LENGTH 0.71328367690995
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {02F146E1-9F2B-4297-8F04-A887AFBB0569}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 6.78021858735748
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E137328E-1118-4F3D-9257-FA399F2D0250}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 46.49350226426743
+      SNAPOFFS 0
+      LENGTH 1.40297207547339
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D2802CF6-6685-42AC-8379-E114D9BD0C5A}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 7.49350226426743
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DAE1AE8E-04B8-4035-887D-00C2E19E4C31}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 47.89647433974083
+      SNAPOFFS 0
+      LENGTH 0.40352566025917
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EF05CD89-18A8-4B73-B80D-08CB13343FB3}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 8.89647433974083
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8A733523-96A0-4126-942D-38C6ACA27010}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 48.3
+      SNAPOFFS 0
+      LENGTH 4.13665571152546
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {A25D1F58-47C7-4672-A110-6EAF5B818D6A}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 9.3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C35066D-1345-4646-8752-FA721D4E73EF}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 52.43665571152546
+      SNAPOFFS 0
+      LENGTH 0.80461412974433
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F70CD14C-9563-4C6B-80D8-30FACD0A2662}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 13.43665571152546
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D04FEEA5-2284-4E9B-BC55-462495726FE1}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 53.24126984126979
+      SNAPOFFS 0
+      LENGTH 1.88991006250668
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {65F96438-8FD3-4286-8964-5435A40DCF7E}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 14.24126984126979
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AF4862FC-9549-4618-9F17-FFFCF665E51B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 55.13117990377647
+      SNAPOFFS 0
+      LENGTH 1.33145048171102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {552E159F-A506-42E8-8FE5-717C0EFB614A}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 16.13117990377647
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0047A7A5-CF2C-4276-9285-A48D36977773}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 56.46263038548749
+      SNAPOFFS 0
+      LENGTH 2.51242317381454
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {39390238-9DAC-4B28-8E86-48496ABA7393}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 17.46263038548749
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FD996319-742F-4473-B51A-53925CDC4A78}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 58.97505355930203
+      SNAPOFFS 0
+      LENGTH 0.43445460002006
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ED994A0F-4580-4C3F-B204-D9696607BBB4}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 19.97505355930203
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9FFEAB16-125A-46A1-A936-37CA1958E363}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 59.40950815932209
+      SNAPOFFS 0
+      LENGTH 2.09049184067791
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D02D2055-B0C1-4522-8391-0C2CCB086E2B}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 20.40950815932209
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F31FA0C-34F7-4342-A54F-FEE088F655BE}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 61.5
+      SNAPOFFS 0
+      LENGTH 0.39
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {374C3B53-8904-49C6-8EED-C63575BC7726}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 22.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0E8AFC1A-9EC6-450A-8B82-DBC7A51148E5}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 61.89
+      SNAPOFFS 0
+      LENGTH 1.61
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {09959CEE-7214-43E2-B51A-67B919C89E46}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 22.89
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {30092742-AB62-44EE-8902-B2AF2BD2E091}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 63.5
+      SNAPOFFS 0
+      LENGTH 0.67193449728804
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FAE7E375-108A-471D-A1F0-F3B6EF4450C3}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 24.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FADE7758-1231-41CB-9D6A-9013F93910EE}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 64.17193449728804
+      SNAPOFFS 0
+      LENGTH 1.53981640989826
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {6CF20059-380F-413C-B421-E3ACB32A8285}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 25.17193449728804
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {313C1D8B-F328-4583-B987-976E4ABB99B0}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 65.7117509071863
+      SNAPOFFS 0
+      LENGTH 0.45161944549169
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {34BA2356-8B21-457F-9912-1D9C4F62F953}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 26.7117509071863
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CFE0DC24-B278-43C5-923A-305B80A7FF96}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 66.16337035267799
+      SNAPOFFS 0
+      LENGTH 2.45470344805179
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {4C995068-2440-47CD-B54E-4C8012BE28FC}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 27.16337035267799
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F24D2DE9-5F99-4AD2-9E67-448BB30C12AC}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 68.61807380072977
+      SNAPOFFS 0
+      LENGTH 0.42536228279565
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {176E9E63-FDAD-4571-83B7-13DF9D88F50D}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 29.61807380072977
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50D33C3F-6048-43A9-8872-68078AC1FDDB}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 69.04343608352542
+      SNAPOFFS 0
+      LENGTH 2.90071357633835
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {77E9C44D-4743-4E6E-A191-50C3218A85EB}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 30.04343608352542
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {30C639D6-E941-471B-9D11-0FE991F59D4A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 71.94414965986377
+      SNAPOFFS 0
+      LENGTH 0.57539657772267
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3FB4763E-61A8-4AEF-97A4-1F338B5417A4}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 32.94414965986377
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9405BFC2-65AE-43B9-B77D-AAAAA73EC461}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 72.51954623758644
+      SNAPOFFS 0
+      LENGTH 2.02571502873715
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {38E9F3B5-6BE9-40C7-B144-7865256A84E3}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 33.51954623758644
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CA797A1C-35E7-42F9-B70D-A0DFD3F319F2}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 74.54526126632359
+      SNAPOFFS 0
+      LENGTH 0.42867708356115
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {96B2AB9A-9370-4E27-9B08-C962075D1883}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 35.54526126632359
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66C7AD5A-195E-4B42-AEB9-2A0ADD8C3082}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 74.97393834988475
+      SNAPOFFS 0
+      LENGTH 4.24758567609489
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {B8BCC757-EF4C-4DEB-B999-BD34E3015637}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 35.97393834988475
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4BC3A49F-1415-463A-A106-1D2B06DD5464}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 79.22152402597963
+      SNAPOFFS 0
+      LENGTH 0.70029102367461
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1F2833FD-8FCC-48D6-A73B-3EC99773F02D}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 40.22152402597965
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3E03193C-1310-43DC-8D97-9754AD6C743F}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 79.92181504965424
+      SNAPOFFS 0
+      LENGTH 0.89575339953899
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {18376C1E-A50E-4A21-A47C-1C5079F459CD}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 40.92181504965424
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B5700410-F047-4367-899E-40873869C535}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 80.81756844919323
+      SNAPOFFS 0
+      LENGTH 0.49870885122827
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5766D6C0-9EDA-4803-A992-5BBBC5E80FE3}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 41.81756844919323
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38396B83-26FE-4A5E-8D0F-6E59F68F8E24}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 81.3162773004215
+      SNAPOFFS 0
+      LENGTH 3.13743377592965
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {85CA13D4-329E-4F5F-A1CD-CA979441B96B}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 42.3162773004215
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FFED5E58-A513-4D7B-B4A9-0B14E7F089DC}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 84.45371107635115
+      SNAPOFFS 0
+      LENGTH 0.37039101378323
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {821A697F-5E92-44C4-9517-8E6781ACA821}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 45.45371107635115
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2188D2E-CA42-4116-820F-B67220F3189E}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 84.82410209013439
+      SNAPOFFS 0
+      LENGTH 3.79428783521782
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {E0F924C1-A008-4CE9-8567-D69DCF2458A8}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 45.82410209013439
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1AF8AD89-B943-46D1-9780-F8EC421B5AF2}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 88.6183899253522
+      SNAPOFFS 0
+      LENGTH 0.34859255798149
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {47EA31D1-A196-481D-A07F-98C458B00D54}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 49.6183899253522
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9629A570-67F7-40EA-A056-064DCE6C7F96}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 88.96698248333369
+      SNAPOFFS 0
+      LENGTH 0.82254653826239
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D27CDFF4-521C-43DB-B1D7-64A5FA2C2486}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 49.96698248333369
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87C822C5-A8AA-4B43-B682-D032A5380F2B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 89.78952902159608
+      SNAPOFFS 0
+      LENGTH 0.41436473873271
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {13ED6E1A-79B8-4046-9117-DBFC596936BD}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 50.78952902159608
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {60C11445-BE96-4F45-BAD6-513B1763B710}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 90.2038937603288
+      SNAPOFFS 0
+      LENGTH 2.42359174158106
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {E87FDA95-E291-42A7-882D-9F666F2268D4}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 51.2038937603288
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ABD4C8D0-CE1F-4259-8CDB-AF1E61D1A114}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 92.62748550190986
+      SNAPOFFS 0
+      LENGTH 1.87251449809014
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2823A30E-440F-4EAB-B990-8020680EEFEC}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1.412538 -1
+      SOFFS 53.62748550190986
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {06023FF7-DDC5-422F-8386-00E9C30C34FF}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 94.5
+      SNAPOFFS 0
+      LENGTH 3.30097916666662
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D0712889-AF48-4335-9069-611F22952C78}
+      IID 99
+      NAME "Interview recording 3.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 55.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {415852C4-DF55-492F-B108-1D666EEE2398}
+      <SOURCE MP3
+        FILE "Media\Interview recording 3.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 3.mp3"
+      >
+    >
+    <ITEM
+      POSITION 104.96242513173348
+      SNAPOFFS 0
+      LENGTH 3.32195896055545
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D88C975D-62F3-47C4-8275-A565EB56FE3A}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6422EEC5-B4A7-4A13-AC81-5ED97BD8A41A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 108.28438409228893
+      SNAPOFFS 0
+      LENGTH 0.3914971435114
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {93DED13D-848E-4C37-9156-CC6F099F8A62}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.82195896055545
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6E275CAA-03E8-4C67-A480-7710D9A8F030}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 108.67588123580033
+      SNAPOFFS 0
+      LENGTH 1.50881035404007
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {92A99226-5783-47F1-A54B-33B4511120EA}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 6.21345610406686
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0C4D2010-FB6E-4C7E-B138-D0D5CBEFD59F}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 110.1846915898404
+      SNAPOFFS 0
+      LENGTH 1.02769372959685
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9EF59C6-4FF1-4B8B-94A1-01875952FAA5}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.72226645810693
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B29F2A83-1385-48D8-83EE-4D6DF0FD205D}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 111.21238531943725
+      SNAPOFFS 0
+      LENGTH 1.34261765959391
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {B504E390-926A-4638-B605-9BE93EC478E8}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 8.74996018770376
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BBBEF25B-D16E-4216-A310-48E8731B2379}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 112.55500297903116
+      SNAPOFFS 0
+      LENGTH 0.63443503947286
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {962084AB-E22A-412B-8D5D-08214579BFEC}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 10.09257784729769
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9A7BDE8-37B3-449F-9489-C8CC73CB3811}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 113.18943801850402
+      SNAPOFFS 0
+      LENGTH 1.62298711322944
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {D7F76C28-286E-490B-9328-7125B2A6B68E}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 10.72701288677053
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8FF56673-12FA-40C3-A3A3-D4B53F1BF167}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 114.81242513173346
+      SNAPOFFS 0
+      LENGTH 0.35
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5ECC681C-C153-48BA-9303-A6390DECCB7A}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1.584893 -1
+      SOFFS 12.35
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {87869B66-1D8A-4BE9-B2AC-03256D764992}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 115.16242513173349
+      SNAPOFFS 0
+      LENGTH 1.3
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {CE34FD84-CD1C-4D60-B734-CDB270502FD9}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 12.7
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7FBD9589-8F8B-45E3-9367-39D4BBC8A4C3}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 116.46242513173348
+      SNAPOFFS 0
+      LENGTH 0.43519550689162
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F9DED048-499B-45DE-A484-700DAD71A667}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2F106CAE-A369-499F-890C-F7649A00A1AE}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 116.8976206386251
+      SNAPOFFS 0
+      LENGTH 1.06480449310838
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {6F76F726-2A96-449B-AC76-C2A372956D80}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.43519550689162
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B98A4172-0E3F-496F-AE35-2346A4DEC767}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 117.96242513173348
+      SNAPOFFS 0
+      LENGTH 12.86897916666666
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0 0.03564583333323 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0A7F6B7D-5B35-4E6C-8548-0F24262A664C}
+      IID 98
+      NAME "Interview recording 7.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 15.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B9A5C86A-FD96-4663-8DE1-3202D6A34B71}
+      <SOURCE MP3
+        FILE "Media\Interview recording 7.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 7.mp3"
+      >
+    >
+    <ITEM
+      POSITION 131.46428730529178
+      SNAPOFFS 0
+      LENGTH 0.42585809757003
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {49135C6A-AE18-44FF-B5BA-6DD0BE4F7A15}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.43519550689152
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A76EA3F9-BF3E-4562-873C-4CB5EDD1F60A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 131.8901454028618
+      SNAPOFFS 0
+      LENGTH 1.6667197497278
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {8A301FD0-D9FA-40BF-B465-C037861B3C8F}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.86105360446155
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ECBA4BC6-5BDF-4215-9EC3-1D0BE8526067}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 133.55686515258961
+      SNAPOFFS 0
+      LENGTH 0.35187544432347
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C73ACA5D-6E2E-45D2-A2EB-1668CDFFC6C6}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.52777335418935
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {AFD6F92D-F0B8-47CE-8033-5A4933F6780D}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 133.90874059691308
+      SNAPOFFS 0
+      LENGTH 3.57409269808792
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {1A30E7FF-F43C-4C8D-B15C-63A105344BA3}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 7.87964879851282
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6407FD0D-9E5B-4724-96E3-87066225584B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 137.482833295001
+      SNAPOFFS 0
+      LENGTH 0.58798794345822
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {930C4CBF-1E42-4D73-80EF-B595964FF7FF}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 11.45374149660074
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D73A607-25C1-4BC7-938B-3770B6172078}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 138.07082123845927
+      SNAPOFFS 0
+      LENGTH 2.12976881904282
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {38010662-F4BE-412B-BBE3-ECC0B3639493}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 12.04172944005902
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B647D24F-B26F-4371-9756-FF94B5D53EA4}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 140.20059005750201
+      SNAPOFFS 0
+      LENGTH 0.42107958819599
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {70A6D43C-FD43-4F58-8755-14E1DEAC0044}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.17149825910184
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8ED82499-C9FC-44DC-90D3-AFDEC65A75F6}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 140.62166964569806
+      SNAPOFFS 0
+      LENGTH 4.48148443054041
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {7ED58964-9416-48E1-9402-36CE0077B925}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 14.59257784729783
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C7E5D876-A792-4581-9C43-191C53FF49C7}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 145.10315407623844
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FD577A7F-0A28-45B9-83ED-392759789D21}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 19.07406227783827
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EF3D223F-332E-48BC-A440-A5ECF11A074E}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 145.60315407623844
+      SNAPOFFS 0
+      LENGTH 2.7778131664852
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {F8F0C536-031C-4769-A492-A89CFBD15AA4}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 19.57406227783827
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {26440A2D-3901-416B-B3B4-58551E50F928}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 148.3809672427237
+      SNAPOFFS 0
+      LENGTH 0.24070240297436
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {E2704241-4DF4-4AF5-B53E-6DBEAC7B6EA5}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 22.35187544432347
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2EAE1D75-AEFE-4E05-86D5-C17457CF2B75}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 148.62166964569806
+      SNAPOFFS 0
+      LENGTH 1.11109341675743
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {26508B31-F175-4842-8EED-0CB7326AD431}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 22.59257784729784
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6F727BC7-8DAF-450A-9BF2-130B4357B9E4}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 149.73276306245546
+      SNAPOFFS 0
+      LENGTH 0.40742215270214
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {22759BE7-5922-49D2-836E-2E2B21901780}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 23.70367126405523
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE33EBC0-62E2-4AA3-889E-278270DFD7E3}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 150.14018521515763
+      SNAPOFFS 0
+      LENGTH 1.75003981229582
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {41B117D5-8531-45E3-8AA0-F1B789590D22}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 24.1110934167574
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88EF7D20-CD0E-4100-886F-B584D4013239}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 151.89022502745357
+      SNAPOFFS 0
+      LENGTH 0.44437366702959
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {6AAC402B-2E0F-429F-895A-B1DE476A15B3}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 25.86113322905325
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B13EC9A2-1623-44A1-9A53-5E12C9C6FA07}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 152.33459869448313
+      SNAPOFFS 0
+      LENGTH 1.84449310391716
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {A76A48C5-1F18-44E1-9E6F-38F0A5C22E34}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 26.30550689608285
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {32D88636-D312-41C3-A201-435914EBDB09}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 154.17909179840026
+      SNAPOFFS 0
+      LENGTH 0.45183563202761
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A618F6FE-5181-4BA1-8372-BAE87EA96B64}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 28.15
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {397FE3E4-CAD5-447B-9DD9-33CE0AEA5965}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 154.63092743042787
+      SNAPOFFS 0
+      LENGTH 0.91691554197854
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {3AC18D58-877A-4F28-B74F-C4AC99BFEEFC}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 28.60183563202761
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {96118C07-D72C-4FD1-8236-E9B47D99D3F2}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 155.54784297240641
+      SNAPOFFS 0
+      LENGTH 0.29098556432746
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {A9488B73-67C5-4536-BAE4-CC669D6D4651}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 29.51875117400615
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9C76A744-4BF9-4538-83FC-A19B8E202AE7}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 155.83882853673387
+      SNAPOFFS 0
+      LENGTH 3.30501576145863
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {8E2DE0A9-43A3-4B34-92FD-B4524AA26141}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 29.8097367383336
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33F6A8D4-02D7-4931-B37C-2F8B53ED6385}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 159.14384429819251
+      SNAPOFFS 0
+      LENGTH 0.71805929159152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0DDE0247-6BCC-4014-B0FF-431096C72EE6}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 33.11475249979221
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E57176C-831C-4FF5-A303-44BC978B22C7}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 159.86190358978402
+      SNAPOFFS 0
+      LENGTH 1.38011725740125
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {7DF207D5-94DA-455E-99EA-4157D71D36C4}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 33.83281179138373
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {2C31C13C-4650-4FCE-B64C-C7E16453030F}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 161.24202084718527
+      SNAPOFFS 0
+      LENGTH 0.38882695865087
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {47D96E7A-BEF8-4589-9E2F-61D4A32DE5BC}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 35.21292904878501
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D1271E76-DC1D-489D-89E5-7FAE9E85B70D}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 161.6308478058362
+      SNAPOFFS 0
+      LENGTH 4.17605715904924
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {EE25869E-DAB1-4C16-8165-8DD54DAB6395}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 35.6017560074359
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A51F55EB-D03C-4764-8B28-DF85162EC402}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 165.80690496488538
+      SNAPOFFS 0
+      LENGTH 0.78699132662328
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {ADADF0D7-18B5-4C8F-8537-E74F78BCB443}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 39.7778131664852
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9D2B0268-F529-4266-B77F-D8D853EBFDBF}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 166.59389629150877
+      SNAPOFFS 0
+      LENGTH 0.93519550689152
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {A13BA173-EB90-4EAF-AFF1-84D319D88ED9}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 40.56480449310848
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C8FE6534-3372-45DA-862E-A095C36A3429}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 167.52909179840026
+      SNAPOFFS 0
+      LENGTH 0.5
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {34000610-4927-4313-A7BB-6BA2FD0FEB76}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 41.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7D19AE4D-2203-4CCD-BB2D-10F303720F89}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 168.02909179840026
+      SNAPOFFS 0
+      LENGTH 3.73358921310586
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {9577DB7B-D131-454F-B7F5-3CE1461662D2}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 42
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6AD07095-500D-4647-A0C3-9C70E32EB519}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 171.76268101150612
+      SNAPOFFS 0
+      LENGTH 0.44794863458426
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FC27FBE9-90B9-4154-A64D-4FD34BF4707B}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 45.73358921310586
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {5BF4C63F-D391-4861-9563-6E0559CCEEAF}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 172.21062964609033
+      SNAPOFFS 0
+      LENGTH 2.56989189586102
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {ABAAA129-4249-437A-B897-0B90BB0919ED}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 46.18153784769012
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BFC4D564-74E2-4EDC-A894-F90A0F660612}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 174.7805215419514
+      SNAPOFFS 0
+      LENGTH 0.30095472519295
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {3FE9D646-053B-4CF1-BF93-4F49281A064C}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 48.75142974355114
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66393515-3474-4F3A-8B41-600A6253965A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 175.08147626714435
+      SNAPOFFS 0
+      LENGTH 1.24761553125592
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {321595AB-CD80-4E08-B1B8-242BC7C913FA}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 49.05238446874409
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DBC72FB-2C41-4822-9A23-043378B5E74C}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 176.32909179840019
+      SNAPOFFS 0
+      LENGTH 0.5404990468366
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94E8173C-BB84-4222-B780-FE97C4D8869D}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.3
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1E3DD0FC-2087-4C9B-8DDD-E16B0004883D}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 176.86959084523684
+      SNAPOFFS 0
+      LENGTH 2.42203594721923
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {5F83675F-D366-4BBD-BBEB-909778626036}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 50.84049904683661
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {075BA965-C311-4341-94B9-0F806FD345F4}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 179.29162679245607
+      SNAPOFFS 0
+      LENGTH 0.43087046891239
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EDEFA272-E053-4038-A580-5F70E9F908D0}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 53.26253499405581
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3ADE380A-6F1F-457D-9F54-2AFBD4643627}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 179.72249726136846
+      SNAPOFFS 0
+      LENGTH 1.62362401549086
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {6A5556F6-7C77-43C4-A623-F72A9F199224}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 53.6934054629682
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {33E5A4A3-8CFA-412B-B104-D565A57B427A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 181.34612127685929
+      SNAPOFFS 0
+      LENGTH 0.38721205647403
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {38D6A3BE-0A8C-4FC3-A85A-3F7FDF0A04D4}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 55.31702947845906
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F8A5662A-61F9-4877-BFE1-607B90BED3F4}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 181.73333333333332
+      SNAPOFFS 0
+      LENGTH 9.28873763173351
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2CECBFE5-8E31-498B-8193-2BBD983E53DD}
+      IID 97
+      NAME "Interview recording 9.mp3"
+      VOLPAN 1 0 0.251189 -1
+      SOFFS 55.70424153493315
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0B7417CF-2B5D-4847-BA02-AD96D2C2DA33}
+      <SOURCE MP3
+        FILE "Media\Interview recording 9.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 9.mp3"
+      >
+    >
+    <ITEM
+      POSITION 192
+      SNAPOFFS 0
+      LENGTH 4.63297916666662
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1FFDC373-DFEC-4ABC-9908-00EB2BE4D416}
+      IID 96
+      NAME "Interview recording 10.mp3"
+      VOLPAN 1 0 0.251189 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E8E01608-F222-4C62-91CF-0FAA4114BDDC}
+      <SOURCE MP3
+        FILE "Media\Interview recording 10.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 10.mp3"
+      >
+    >
+    <ITEM
+      POSITION 216.97461489581363
+      SNAPOFFS 0
+      LENGTH 2.04290249433117
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {7D0172E3-7674-4DC4-A558-A9F679A5F0F9}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 1
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A04C978-0D2A-4FB1-B3F7-8BB539253A9B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 219.0175173901448
+      SNAPOFFS 0
+      LENGTH 0.95709750566883
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DBB26202-1FD0-4DBF-9D69-D0D177D4E6C6}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 3.0429024943312
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {ED2E6E85-0033-4767-9E9C-1DBA73051081}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 219.97461489581363
+      SNAPOFFS 0
+      LENGTH 1.37972554691527
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {B09A4183-6800-47AF-9A97-91E599227293}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 4
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2C073DB-B157-4FF5-A827-904FFD67AAAA}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 221.3543404427289
+      SNAPOFFS 0
+      LENGTH 0.39092754159589
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {D4CAE604-EB26-47A2-BB6F-5F6E5C97C92C}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.37972554691527
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {05A03E3B-BD06-46E4-8D4D-AC3F06A0F84C}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 221.74526798432478
+      SNAPOFFS 0
+      LENGTH 4.22934691148885
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {5DC7E157-45FF-4ABF-85F2-87DC3DD0380A}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 5.77065308851115
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {91EC9D07-DFA6-43E5-8D3C-A154131D1F9B}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 225.97461489581363
+      SNAPOFFS 0
+      LENGTH 0.78811457809252
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82E3AEDF-C954-4C78-BEEC-D6FB47BFB098}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 10
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {37A483C1-FB3C-42A8-89F0-F1937E3113F9}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 226.76272947390615
+      SNAPOFFS 0
+      LENGTH 1.91269255209318
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {8AC454CD-B53C-421B-B49A-046FD76FD9F8}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 10.78811457809252
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {996BF9EF-7125-43F8-AD3E-AF901DE3E311}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 228.67542202599932
+      SNAPOFFS 0
+      LENGTH 2.29919286981431
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {41403CAD-1FCC-4AC1-A1F9-69038EA1D967}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 12.70080713018569
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {651E1C97-23FB-4DFF-BEED-ABB2D18C6B48}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 230.97461489581363
+      SNAPOFFS 0
+      LENGTH 1.75319159892979
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {9E7D2F83-1451-40C4-86F6-2DB3DE9172D1}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 15
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {112F697A-171F-41C3-BA8E-F29EA30B1DE7}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 232.72780649474342
+      SNAPOFFS 0
+      LENGTH 0.57576355898885
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9F51FAFE-6BD3-42E9-B327-CFEDA0D1A1F5}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 16.75319159892979
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {52DF66B3-4361-4729-8FDD-939940D53F3A}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 233.30357005373227
+      SNAPOFFS 0
+      LENGTH 2.02966671605009
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {5C23D8F7-3711-4AB6-A92E-1ADF73138D00}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 17.32895515791864
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0BD088B4-0546-4CD5-A94E-625BAB1E9B97}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 235.33323676978236
+      SNAPOFFS 0
+      LENGTH 0.32707131356671
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {7551B0B4-D4CD-47F0-A18A-30FCA10AD40E}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 19.35862187396873
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {506B6988-E62A-4881-9A40-A5269F4F6BE6}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 235.66030808334907
+      SNAPOFFS 0
+      LENGTH 2.63969191665092
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 1 0
+      SEL 0
+      IGUID {9C247576-5DEB-4F9A-BB1A-E661F666069F}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 1 -1
+      SOFFS 19.68569318753543
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC14B0E4-57AE-4810-933D-E158D9F00BE6}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+    <ITEM
+      POSITION 238.3
+      SNAPOFFS 0
+      LENGTH 13.38759406248033
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {82AD92F9-13AA-4355-83F5-299331648EB1}
+      IID 95
+      NAME "Interview recording 13.mp3"
+      VOLPAN 1 0 0.944061 -1
+      SOFFS 22.32538510418635
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11557455-A516-4639-90C9-D5025CAD7F64}
+      <SOURCE MP3
+        FILE "Media\Interview recording 13.mp3" 1
+      >
+      <EXT
+        ORIGINAL_FILENAME "C:\Users\PC\Downloads\Interview recording 13.mp3"
+      >
+    >
+  >
+  <TRACK {C1FE6943-4003-4BB9-813A-345BEB418768}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {C1FE6943-4003-4BB9-813A-345BEB418768}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+>
